@@ -1,0 +1,17 @@
+.product_details .title{width:100%;height: 0.3rem; border-bottom: 1px solid #000000; padding-top: 0.3rem;margin-bottom: 0.3rem;}
+.product_details .title h4{font-weight: normal;font-size: 0.24rem; float: left;}
+.product_details .title span{color: #FFFFFF; display: inline-block;float:left;height: 0.22rem; width:0.22rem ;background: #a62c2c; line-height: 0.22rem; text-align:center;margin:0.03rem 0.15rem 0 0.3rem;}
+
+.product_details .container{}
+.product_details .container .pic{float: left; width: 41%;}
+.product_details .container .pic img{width: 100%;}
+.product_details .container .right h4{margin-bottom: 0.18rem;}
+.product_details .container .right{float: right; width: 59%;}
+.product_details .container .right p{height: 0.5rem;font-size: 0.18rem;}
+.product_details .container  h4{width: 100%; height: 0.45rem;font-weight: normal; font-size:0.24rem;background:#a62c2c; line-height: 0.45rem;color: #FFFFFF;padding-left:0.1rem;}
+.product_details .container .content h4{ margin-bottom: 0.25rem;}
+.product_details .container .content h5{font-size:0.18rem; line-height: 0.32rem;font-weight: normal; }
+.product_details .container .content p{font-size:0.18rem; line-height: 0.32rem;text-indent: 2em;}
+
+.footer{margin-top: 1.45rem;}
+

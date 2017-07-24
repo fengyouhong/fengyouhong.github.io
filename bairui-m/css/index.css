@@ -1,0 +1,45 @@
+.company_profile{width: 100%;}
+.company_profile .comany_show{width: 5.9rem;margin:0.24rem auto; height: 3.88rem;}
+.company_profile .comany_show img{width: 5.9rem;height: 3.8rem;}
+.company_profile .text{font-size: 0.24rem;width: 5.83rem;margin: 0 auto;}
+.company_profile .text h4{font-weight: normal;text-align: center;font-size: 0.24rem;}
+.company_profile .text p{ font-size:0.24rem;margin: 0.25rem auto 0.55rem; line-height: 0.39rem; text-indent: 2em;}
+
+/*主页各部分头部公共样式*/
+.product_center{width: 100%; height: 5.23rem; background: #d5d2d2; margin-top: 0.12rem;}
+.product_center .container .top h4{padding-top: 0.12rem;}
+.product_center .container .top span{background: #D5D2D2;}
+/*标题公共样式*/
+.container{width: 5.9rem; margin: 0 auto;overflow: hidden;}
+.container .top{width: 44%; margin: 0 auto; height: 0.8rem;}
+.container .top h4{color: #dd2222;font-size: 0.24rem;font-weight: normal;border-bottom: 1px solid #781212;width: 2.81rem;height:0.29rem ; line-height: 0.29rem; text-align: center;margin: 0.38rem auto;}
+.container .top span{font-size: 0.18rem; color: #4f4c4c; height: 0.18rem;display:block;width:61%;background: #ffffff; margin-left:0.56rem; margin-top: -0.02rem;}
+/*标题公共样式*/
+
+/*产品中心*/
+.product_center .container .product_show {margin-top: 0.5rem;}
+.product_center .container .product_show ul{width: 100%;}
+.product_center .container .product_show ul>li{float: left;width:27%;margin:0rem 0.18rem 0.3rem;}
+.product_center .container .product_show ul>li:hover{background: #dd2222;}
+.product_center .container .product_show ul>li:hover figcaption a{color: #FFFFFF;}
+.product_center .container .product_show ul>li a{width: 100%; height: 1.42rem;}
+.product_center .container .product_show ul>li figure{width: 100%; height: 1.42rem;}
+.product_center .container .product_show ul>li figure a img{height: 1.10rem;width: 98%;margin: 0.01rem 1% 0;}
+.product_center .container .product_show ul>li figcaption{text-align: center;height: 0.3rem;}
+.product_center .container .product_show ul>li figcaption a{font-size: 0.18rem; height: 0.3rem;line-height:0.3rem;color: #000000;}
+.product_center .container .product_show ul>li img{width: 100%;}
+/*产品中心*/
+/*新闻中心*/
+.news_center .container .news_show ul>li{width: 49%; float: left;margin-left: 0.05rem; margin-bottom: 0.25rem;}
+.news_center .container .news_show ul>li:hover{background:#dd2222 ;}
+.news_center .container .news_show ul>li:hover .text{color: #FFFFFF;}
+.news_center .container .news_show ul>li:hover .text h4 a{color: #FFFFFF;}
+.news_center .container .news_show ul>li>a.pic{float: left;width: 33%;height: 1.08rem;}
+.news_center .container .news_show ul>li>a.pic img{width: 100%;height: 1.08rem;}
+.news_center .container .news_show ul>li>.text{float: right;font-size: 0.24rem;width: 66%;height: 1.08rem;color: #000000; position: relative;}
+.news_center .container .news_show ul>li>.text h4{ font-weight: normal;font-size: 0.24rem;}
+.news_center .container .news_show ul>li>.text h4 a{font-size: 0.24rem;color: #000000;}
+.news_center .container .news_show ul>li>.text p{font-size: 0.18rem;}
+.news_center .container .news_show ul>li>.text span{font-size: 0.18rem;position: absolute;right: 0.2rem;bottom:0.02rem ;}
+/*新闻中心*/
+

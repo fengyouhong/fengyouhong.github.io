@@ -1,0 +1,73 @@
+body{width: 100%; position: relative; font-family: "黑体";}
+*{margin: 0;padding: 0;}
+*{font-size: 12px;}
+li{ list-style-type: none; cursor:pointer; }
+a{ text-decoration: none; outline: none; }
+.clear{clear: both;}
+button,textarea,select{ outline: none; cursor: pointer;}
+
+/*头部样式*/
+#header{height: 0.87rem; width: 100%; background: #a62c2c; position: relative;}
+/*按钮样式*/
+.nav_toggle{ position: absolute;left: 0.15rem;border: none; background: none; height: 0.24rem; width:0.63rem;overflow: hidden;top:50%;margin-top: -0.12rem;}
+.nav_toggle span.left{height:0.22rem; display: block;float: left;width: 0.25rem; margin-left:0.04rem; border-radius: 0.05rem;}
+.nav_toggle span{ display:block; width: 0.34rem;height: 0.04rem; background: #ffffff;margin:0.03rem 0 0.04rem 0.33rem;border-radius: 0.05rem; }
+/*按钮样式*/
+/*导航栏*/
+.navbar{ position: absolute;background: #a62c2c;height:3.2rem;top:0.87rem; width: 26%;display: none;z-index: 100;;}
+.navbar li{ height: 0.64rem;width: 100%;line-height: 0.64rem; font-size: 0.25rem;}
+.navbar li a{ display: block; color: #FFFFFF; padding: 0 15px;font-size: 0.25rem;}
+.navbar li.on{background: #ffffff;}
+.navbar li.on a{color: #a62c2c;}
+.navbar li:hover{background: #ffffff;}
+.navbar li:hover a{color: #a62c2c;}
+/*导航栏*/
+/*搜索按钮*/
+#header .search{display: inline-block;width:46%; height: 0.45rem; border-bottom: 1px solid #ffffff;position: absolute;top: 0.2rem; left: 1.63rem;}
+#header .search button:nth-of-type(1){position: absolute;bottom: 0.03rem;width: 0.36rem; height: 0.39rem;left: 0;  background: #a62c2c; border: none;}
+#header .search input{position:absolute; bottom: 0.03rem;width: 2.15rem;height: 0.22rem; left:0.40rem ; background: none;border:0;outline: none;font-size: 0.20rem;padding-left: 0.1rem; }
+#header .search :nth-last-child(1){width:0.22rem;height:0.22rem;position: absolute;bottom: 0.03rem;right:0;background: #a62c2c; border: none;}
+/*搜索按钮*/
+#header .email{width:8%; height:41%;display: inline-block;position: absolute;right: 0.28rem;top:0.3rem; border: none;background:#a62c2c;}
+
+#header .email  img{ height: 100%; width: 100%;}
+
+/*头部样式*/
+
+/*banner样式*/
+.banner{position: relative;}
+.banner .bd ul{position: relative; height: 3.2rem; overflow: hidden;}
+.banner .bd ul li{width: 100%; position: absolute; height: 3.2rem;}
+.banner .bd ul>li img{width: 100%;}
+/*圆点*/
+.banner .hd ol{width: 0.9rem; position: absolute; bottom: 0.1rem;left: 50%; margin-left: -0.45rem;}
+.banner .hd ol>li{width: 0.22rem; height: 0.22rem;float: left;background: #000000; border-radius: 0.11rem;margin-left: 0.08rem;}
+.banner .hd ol>li.on{background: #ff0f0f;}
+
+/*banner样式*/
+
+
+
+/*底部列表*/
+.footer{width: 100%;height: 1.8rem;background: #a62c2c;}
+.footer .container{height: 1.4rem;}
+.footer .container dl{width: 1.1rem; float: left;margin-top: 0.15rem; margin-left: 0.15rem;}
+.footer .container dl {color: #ffffff;}
+.footer .container dl>dt{font-size:0.24rem; text-align: center; height: 0.4rem; line-height: 0.4rem;}
+.footer .container dl>dd{text-align: center;}
+.footer .container dl>dd a{font-size:0.18rem; text-align: center; height: 0.3rem; line-height: 0.3rem; color: #FFFFFF;}
+/*底部列表*/
+
+/*底部二维码联系方式*/
+.footer .container .right{width: 3.1rem; height: 1rem; float: right; margin-top: 0.15rem;}
+.footer .container .right a{width:0.97rem; height: 1rem;float:left;margin-left: 0.25rem;}
+.footer .container .right a img{width:0.97rem; height: 1rem;}
+.footer .container .right .text{float: right;}
+.footer .container .right .text h4{font-size: 0.24rem;color: #FFFFFF; font-weight: normal;}
+.footer .container .right .text h5{font-size: 0.24rem;color: #FFFFFF;font-weight: normal;}
+/*底部二维码联系方式*/
+
+/*底部版权*/
+.footer .bottom{width: 100%; height: 0.4rem;background: #5d1717;}
+.footer .bottom p{font-size:0.18rem;height: 0.4rem; color: #FFFFFF;text-align: center; line-height: 0.4rem;}
+/*底部版权*/
