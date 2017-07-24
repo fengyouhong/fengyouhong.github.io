@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news_cen{ width: 100%; }
+.com .list{height: 170px;}
+
+.container .right{ font-size: 12px;margin: 75px 60px 0 0;}
+.container .right .news_show li{margin-bottom:65px;}
+.container .right ul>li a{color: #000000;}
+.container .right ul>li h4{font-size:12px;font-weight:normal;color: #000000;line-height: 25px;border-bottom: 1px solid #ce2a20; }
+.container .right ul>li h4 span{display: inline-block; float: right; margin:5px 30px 0 0 ; font-size: 12px;}
+.container .right ul>li p{margin:15px 0 0 25px;}
+.container .right ul>li:hover p{color: #ce2a20;}
+.container .right ul>li:hover h4 span{color: #ce2a20;}
+.container .right ul>li:hover h4 a{color: #ce2a20;}
+
+
+
+.news_cen .right_bottom{text-align: center;  margin-bottom:90px; }
+.news_cen .right_bottom ul{display: inline-block; height: 12px;}
+.news_cen .right_bottom ul>li{float: left;height: 12px;}
+.news_cen .right_bottom ul a{ color:#000000; margin:0 15px;font-size: 12px;}
+.news_cen .right_bottom ul a:hover{color:#d16868; }
+.news_cen .right_bottom ul a.on{color:#d16868; }

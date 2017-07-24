@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.com .list{height: 160px;}
+.news_details .right{width: 838px; float: right;}
+.news_details .right .right_top{ width: inherit;margin-top: 50px; text-align: center; border-bottom: 1px solid #000000; }
+.news_details .right .right_top h4{ font-size: 14px; font-weight: normal;height: 25px; line-height: 25px; }
+.news_details .right .right_top p{ font-size:10px;color: #626262; height: 25px; line-height: 25px;}
+.news_details .right .right_midlle{margin: 22px auto 0; width: 800px; }
+.news_details .right .right_midlle p{ font-size: 14px; line-height: 25px; }
+.news_details .right .right_midlle img{ margin:15px 0 15px 120px; width: 505px; height: 320px;   }
+.news_details .right .right_midlle .page{ width: inherit; margin-top: 50px ;padding-bottom: 75px; }
+.news_details .right .right_midlle .page ul>li{width: 154px; display: inline-block;}
+.news_details .right .right_midlle .page ul>li.prve{ float: left;margin-left:20px; }
+.news_details .right .right_midlle .page ul>li.next{ float: right;margin-right: :20px; }
+.news_details .right .right_midlle .page ul>li a{ display: inline-block;font-size: 14px; color: #000000; }
+.news_details .right .right_midlle .page ul>li:hover a{ color: #e51d1d; }

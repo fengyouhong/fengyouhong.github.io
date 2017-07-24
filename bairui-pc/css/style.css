@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+/*内页左边公共部分*/
+
+.com{width: 260px; float: left;}
+.com p{ padding-left: 24px; font-size: 14px; width: 245px; height: 30px;border-bottom: 1px #a62c2c solid; padding-top: 20px;}
+.com p a{ color: #a62c2c; }
+.com .list { width: 230px;  background: #d9d8d8;  margin:30px auto 0 22px;}
+.com .list h5{ width:230px; height:50px;background:#a62c2c;text-align:center;line-height:50px; font-size:14px;font-weight:normal; color:#ffffff;}
+.com .list li{width: 100%; height:50px; margin:0 auto;  line-height: 50px;}
+.com .list li a{border-bottom: 1px solid #717171;width: 212px; display: block;margin:0 auto; color: #000000;font-size: 12px;}
+.com .list li img{ width: 35px;height: 32px; display: inline-block;float: left; padding:6px 3px 0 22px;}
+.com .list li.title{background: #a62c2c;text-align:center;}
+.com .list li.title a{ color: #ffffff; border:0; }
+.com .list li.title a:hover{ color: #ffffff; border:0; }
+.com .list li.on a{color: #a62c2c; border-bottom: 1px solid #a62c2c;}
+.com .list li a:hover{color: #a62c2c; border-bottom: 1px solid #a62c2c;}
+/*内页左边公共部分*/
+.container .right{ float: right; width: 855px; }

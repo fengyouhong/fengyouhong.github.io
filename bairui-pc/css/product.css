@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container .left .list{height: 355px;}
+
+
+.container .right{margin-top:70px;}
+.container .right .right_top h5{border-bottom: 1px solid #000000; height: 30px; line-height: 30px;font-size:14px; font-weight:normal;}
+.container .right .right_top h5 span{ display: inline-block; width: 14px; height: 14px;color: #ffffff; line-height: 11px; text-align: center; background:#a62c2c;  margin:0 15px 0 15px;}
+/*右边样式*/
+.pro_cen{ width: 100%; }
+.proshow{width: 855px;}
+.proshow ul{ margin-top: 20px; }
+.proshow ul li{ float: left;width:185px;height:235px;margin-right:80px;margin-left:10px; margin-bottom:20px;}
+
+.proshow ul li img{padding:0 12px ;}
+.proshow ul li p{font-size:12px; color:#000000; text-align:center;width:185px; height:65px; overflow:hidden; line-height:33px; position: relative;}
+.proshow ul li span{ font-size:10px; display:none;color:#e7c23e; position: absolute;bottom: -5px; right: 4px;}
+.proshow ul li:hover p{background:#e03838; color:#ffffff; } 
+.proshow ul li:hover span{ display:block; }
+
+
+.container .right_footer{ padding-top:50px;margin-bottom:45px;  text-align: center;}
+.container .right_footer ul{display: inline-block;}
+.container .right_footer ul>li{ float: left;}
+.container .right_footer ul>li a{ color:#000000; margin:0 15px;font-size: 12px;}
+.container .right_footer ul>li a.on{color:#b71111;}
+.container .right_footer ul>li a:hover{color:#b71111;}

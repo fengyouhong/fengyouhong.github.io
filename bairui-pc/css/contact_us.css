@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container .form{ width: 1200px; height: 705px; background: #efeeee; margin-top: 90px;  border:0;}
+.container .form form{ width: 878px; height: 550px;margin:0 auto;  padding-top: 70px;}
+
+
+.container .form form label{font-size:14px;}
+.container .form form label.name{float:left;}
+.container .form form label.contact{float:left;margin-left:125px;}
+.container .form form label.email{float:right;margin-right:0;}
+
+.container .form form label input{ height: 28px; line-height: 28px; font-size: 14px; border:0;padding:0 10px;}
+.container .form form label input.name{width: 84px;margin-left:10px;}
+.container .form form label input.contact{ width: 130px;margin-left:10px;}
+.container .form form label input.email{ width: 220px;margin-left:10px; }
+
+.container form textarea{ overflow: hidden;width: 860px;height: 368px; margin-top: 50px; border: 0; resize: none;padding:15px 18px 0 ; font-size: 14px;}
+
+.container .form form label.code{ width: 280px; height: 65px; display:block; margin:35px 0 0 85px; float: left;}
+.container .form form label.code img{ width: 130px;height: 63px;float: right;cursor:pointer; }
+.container .form form label input.code{ width: 130px; height: 63px; text-align: center; line-height: 67px;}
+
+.container form input.submit{ width: 178px; height: 67px; text-align: center;line-height: 67px;font-size: 18px; color:#000000;  float: right; border:0; margin:35px 27px 0 0;}
+.container form input.submit:hover{background: #e62a2a; color: #ffffff;cursor: pointer;}
+
+iframe{overflow: hidden; width: 1154px; height: 490px; margin:40px 0 25px 23px; border:0; }

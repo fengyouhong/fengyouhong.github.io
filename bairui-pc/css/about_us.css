@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*内页右边样式*/
+.about_us .right h5{width: 100%; text-align: center; font-size: 14px;font-weight: normal;border-bottom: 1px solid #000000;line-height:50px; margin-top: 40px;}
+.about_us .right p{font-size: 12px;text-indent: 2em;width: 790px;line-height: 20px;}
+.about_us .right p.one{ margin: 40px auto 20px; }
+.about_us .right p.two{margin: 20px auto 85px; }
+.about_us .right img{width: 400px; height: 280px;margin-left:200px ;}
+.about_us .left .list{height:160px;}

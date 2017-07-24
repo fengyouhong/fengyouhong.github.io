@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{ border: 0; }
+body{ font-family: '微软雅黑'; }
+*{margin: 0; padding: 0;}
+li{ list-style-type: none; }
+a{ text-decoration: none; outline: none; }
+button,input,textarea,select{ outline: none;}
+.container{ width:1200px; margin:0 auto; }
+.clear{ clear: both;overflow: hidden;}
+/* 头部样式*/
+#header{width: 100%;height: 105px; }
+#header .logo{ height: 83px; float: left;  margin: 13px 0 0 60px;}
+#header .logo a{ height: 83px; display: table-cell; vertical-align: middle; }
+#header .logo a img{ display: block; }
+#header .navbar{ float: left; margin-left: 250px; }
+#header .navbar li{ float: left; width: 95px;height: 64px; text-align: center; line-height: 64px;margin:26px 5px 0 0; }
+#header .navbar li a{ display: block; color: #000000; font-size: 14px; }
+#header .navbar li:hover a{  background-color:#e64c4f; color:#FFFFFF; }
+#header .navbar li.on a{  background-color:#e64c4f; color:#FFFFFF; }
+/* 头部样式*/
+/*banner部分*/
+.index_banner{ height: 600px; overflow: hidden;position: relative; }
+.index_banner .bd{ height: 600px; overflow: hidden;}
+.index_banner .bd li{ height: 600px; overflow: hidden; position: relative; float: left;width: 100%;}
+.index_banner .bd li a{ position: absolute; width: 1920px; left: 50%; margin-left: -960px;}
+.index_banner .hd{ position: absolute; bottom: 0; text-align: center; width: 100%;}
+.index_banner .hd ul{ display: inline-block;*display: inline;*zoom:1;}
+.index_banner .hd li{ width: 13px; height: 13px; background:url(../images/black.png); border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; margin: 0 9px 20px; float: left; cursor: pointer;}
+.index_banner .hd li.on{background:url(../images/red.png);}
+.index_banner .hd li:hover{ background:url(../images/red.png);}
+/*banner部分*/
+/*底部样式*/
+#footer{width: 100%; background:#a62c2c;}
+#footer .top{ height: 226px; width:1200px; margin: 0 auto;  }
+#footer .top .left{ float: left; margin-left: 54px; }
+#footer .top .left dl a{ color: #ffffff; }
+#footer .top .left dl { float: left; margin:40px 13px 0; color:#ffffff;  text-align: center;}
+#footer .top .left dl>dt{ margin-bottom: 20px; font-size: 16px; }
+#footer .top .left dl>dd{ line-height: 30px; font-size: 12px; }
+#footer .top .right{ float: right; margin-top: 47px; margin-right: 150px; }
+#footer .top .right .list { float: right; padding-left: 8px;color: #ffffff; }
+#footer .top .right .list h2,#footer .top .right .list h3,#footer .top .right .list h5{font-weight: 200; }
+#footer .top .right .pic{ float: left; }
+#footer .copy{ height: 39px; background: #5d1717; }
+#footer .copy p{ text-align: center; color: #ffffff;line-height: 39px; }
+/*底部样式*/

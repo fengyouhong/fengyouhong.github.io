@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+/*左边上部公用样式*/
+.container .left .list{height: 355px;}
+.container .right{ margin-top:70px;}
+.container .right .right_top{  }
+.container .right .right_top h5{border-bottom: 1px solid #000000; height: 30px; line-height: 30px;font-weight:normal;}
+.container .right .right_top h5 span{ display: inline-block; width: 14px; height: 14px;color: #ffffff; line-height: 11px; text-align: center; background:#a62c2c;  margin:0 15px 0 15px;}
+/*左边上部公用样式*/
+.container .right .right_midlle{margin-top: 30px;}
+.container .right .right_midlle img{height: 275px;margin-bottom: 120px; }
+.container .right .right_midlle .pro_present{ width: 590px;float: right; }
+.container .right .right_midlle .pro_present p{ padding-left: 10px; font-size: 12px; height: 20px; line-height: 20px;margin:4px 0 4px 0;}
+.container .right .right_midlle .pro_present h5{ background: #a62c2c;color: #ffffff;font-weight:normal; text-indent:1em;}
+.container .right .right_midlle .pro_present .text_top{margin-bottom:50px; }

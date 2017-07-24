@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*通用标题样式*/
+.index_title{ width: 1200px; text-align: center; margin-top: 33px;}
+.index_title h3{ font-size:14px; float:left; margin-left:56px;width:133px;  background:#ffffff;height: 19px;}
+.index_title h3 a{color:#dd2222; }
+.index_title div{border-bottom:1px #450b0b solid; width:245px;  margin:0 auto;height:18px;}
+.index_title span{ font-size:11px; line-height:14px;height:30px; width:245px;display:block;  color:#4f4c4c;margin: 0 auto;}
+/*通用标题样式*/
+
+ /*公司介绍*/
+.company_profile .company_pic{ float:left;margin: 35px 0 28px 20px;}
+.company_profile .company_text{ float:right; width:672px; }
+.company_profile .company_text{ font-size:14px; line-height:30px; text-indent:2em; margin-top: 35px;}
+.company_profile .company_text>h4{ text-align:center; font-weight:normal;}
+/*公司介绍*/
+
+/*产品中心*/
+.product_center{ background: #d5d2d2; width: 100%; margin-top: 18px; }
+.product_center .index_title h3{background:#d5d2d2;}
+.product_center .product_center_pic{ width:1200px; margin:0 auto;padding-top: 50px;}
+.product_center .cproduct_center_pic ul{clear: both;}
+.product_center .product_center_pic ul li{ float:left; margin:0 0 80px 20px; height:215px; width:270px;}
+.product_center .product_center_pic ul li:hover p a{ color:#FFFFFF; background:#dd2222;}
+.product_center .product_center_pic ul li:hover { background:#dd2222;}
+.product_center .product_center_pic ul li img{ width:266px; height:176px; padding-left:2px;padding-top:2px;}
+.product_center .product_center_pic ul li p { text-align:center; line-height:35px; }
+.product_center .product_center_pic ul li p a{color:#000000;}
+/*产品中心*/
+
+/*新闻中心*/
+.news_center {  width: inherit; }
+.news_center .index_title{margin-top: 55px;}
+.news_center .list ul{ float: left; padding-left: 50px; padding-top: 27px; margin-bottom: 40px;}
+.news_center .list ul>li{ float: left; margin: 0 40px 0 20px;  width: 316px; height: 90px;margin-bottom: 22px; }
+.news_center .list ul>li:hover{ background: #dd2222;  color: #ffffff;}
+.news_center .list ul>li img{width: 114px;height: 90px; display:block; float: left; }
+.news_center .list ul>li .test{ float: right; width: 192px; font-size: 10px; margin-left: 10px; height: 90px;}
+.news_center .list ul>li .test h2 a{font-weight:normal;color:#000000;}
+.news_center .list ul>li:hover h2 a{ color: #ffffff;}
+.news_center .list ul>li .test p{ font-size: 12px;  line-height: 20px;}
+.news_center .list ul>li .test span{float: right; margin-right: 10px; margin-bottom: 8px; }
+/*新闻中心*/
