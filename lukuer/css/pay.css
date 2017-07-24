@@ -1,0 +1,235 @@
+#middle{
+	background: #f4f3f3;
+}
+#middle h1{
+	font-size: 48px;
+	color: #636161;
+	padding-left: 220px;
+}
+#middle .left{
+	float: left;
+	margin-left: 130px;
+}
+#middle .left h3{
+	font-size:14px ;
+	color:#636161;
+	
+}
+#middle .left h4{
+	font-size: 12px;
+	color:#636161;
+}
+#middle .left h4 span{
+	color: #FF0000;
+}
+#middle .right{
+	float: right;
+	margin-right: 320px;
+}
+
+#middle .right h3{
+	color: #636161;
+	font-size: 14px;
+	
+}
+#middle .right h3 span{
+	color: #FF0000;
+	margin: 0 20px 0 10px;
+}
+#middle .right h3 a{
+	color: #4b7ef4;
+}
+#middle .right h4{
+	font-size: 12px;
+	color: #4b7ef4;
+	line-height: 14px;
+	text-align: center;
+}
+#middle .right h4 select{
+	border: none;
+	background: no-repeat;
+	outline: none;
+}
+#middle .pay_center{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 140px;
+	border-top: 1px solid #636262;
+	margin-bottom: 42px;
+}
+#middle .pay_center .title{
+	width: 1093px;
+	height: 75px;
+	border-bottom: 1px solid #c3c2c3;
+	margin: 0 auto;	
+}
+#middle .pay_center .title h3{
+	width: 770px;
+	height: 45px;
+	color:#FFFFFF;
+	background: #FF0000;
+	line-height: 45px;
+	padding-left: 65px;
+	font-size: 24px;
+	margin: 30px 0 30px 78px ;
+}
+#middle .pay_center .coup{
+	height: 85px;
+	width: 1093px;
+	border-bottom: 1px solid #c3c2c3;
+	margin: 0 auto;
+	color: #817f80;	
+	line-height: 85px;
+	padding-left: 78px;
+	font-size: 16px;
+}
+#middle .pay_center .coup img{
+	height: 35px;
+}
+#middle .pay_center .coup a{
+	color: #817f80;
+	margin-left: 10px;
+}
+#middle .pay_center .bala{
+	height: 85px;
+	width: 1093px;
+	border-bottom: 1px solid #c3c2c3;
+	margin: 0 auto;
+	color: #817f80;	
+	line-height: 85px;
+	padding-left: 78px;
+	font-size: 16px;
+}
+#middle .pay_center .bala b{
+	font-weight: normal;
+	cursor: pointer;
+	
+}
+#middle .pay_center .bala img{
+	margin-bottom: 5px;
+	margin-right: 17px;
+}
+#middle .pay_center .bala input{
+	width: 16px;
+	height: 16px;
+	background: #FFFFFF;
+	border: none;
+}
+#middle .pay_center .pay_ment{
+	width: 980px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+}
+#middle .pay_center .pay_ment ul.page{
+	padding: 0;
+	
+}
+#middle .pay_center .pay_ment ul.page li{
+	cursor: pointer;
+	width: 180px;
+	height: 60px;
+	border: 1px solid #bbb9ba;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+}
+#middle .pay_center .pay_ment ul.page li:nth-child(2){
+	left: 190px;
+}
+#middle .pay_center .pay_ment ul.page li:nth-child(3){
+	left: 380px;
+}
+#middle .pay_center .pay_ment ul.page li.on{
+	border: 1px solid #db3366;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius: 0;
+	z-index: 1000;
+	background: #FFFFFF;
+}
+#middle .pay_center .pay_ment .details{
+	width: 978px;
+	height: 434px;
+	border: 1px solid #db3366;
+	position: relative;
+	display: none;
+	top: 59px;
+	z-index: 1;
+	background: #FFFFFF;
+}
+#middle .pay_center .pay_ment div.ative{
+	display: block;
+}
+#middle .pay_center .pay_ment .details h4{
+	padding-left:40px ;
+}
+#middle .pay_center .pay_ment .details ul.list li{
+	cursor: pointer;
+	width: 294px;
+	height: 76px;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 5px;
+}
+#middle .pay_center .pay_ment .details ul.list li img{
+	width: 100%;
+	height: 100%;
+}
+#middle .pay_center .pay_ment .details ul.list li.on{
+	border: 1px solid #FF0000;
+}
+#middle .pay_center .pay_ment .details input{
+	width: 220px;
+	height: 56px;
+	background: #FF0000;
+	border: none;
+	color: #FFFFFF;
+	margin-left: 40px;
+	margin-top: 57px;
+}
+#middle .pay_center .pay_ment .details span{
+	color: #565656;
+	margin-left: 23px;
+}
+#middle .pay_center .pay_ment .details span a{
+	color: #565656;
+}
+#middle .pay_bottom{
+	width: 100%;
+	border-top: 1px solid #dcdbdb;
+	overflow: hidden;
+	padding-bottom: 35px;
+	padding-top: 40px;
+	padding-left: 115px;
+}
+#middle .pay_bottom ul{
+	margin-top: 40px;
+	padding: 0;
+}
+#middle .pay_bottom ul li{
+	float: left;
+	margin-right: 20px;
+	color: #565656;
+	font-size: 16px;
+}
+#middle .pay_bottom ul li span{
+	margin-left: 22px;
+}
+#middle .pay_bottom ul li a{
+	color: #565656;
+	font-size: 16px;
+}
+#middle .pay_bottom ul li img{
+	margin-left: 10px;
+}
+#middle .pay_bottom ul li:last-child{
+	width: 96px;
+	height: 28px;
+	color: #FFFFFF;
+	background: #FF0000;
+	padding: 0;
+	text-align: center;
+	line-height: 28px;
+}

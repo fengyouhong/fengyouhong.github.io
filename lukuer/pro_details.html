@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>产品详情</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pro_details.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script src="js/shop_car.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/pro_detail.js" ></script>
+</head>
+<body onload="pro_num()">
+	<!--头部-->
+	<div id="header">
+		
+		<div class="header_top">
+			<div class="container">
+				
+				<div class="left">
+					欢迎光临，璐酷尔假发商城
+				</div>
+				
+				<div class="right">
+					<ul class="nav_login">
+						<li>
+							<a href="login.html">登录</a>
+							<span>|</span>
+							<a href="register.html">免费注册</a>
+						</li>
+						<li>
+							<select>
+								<option>关注我们</option>
+							</select>
+						</li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="header_middle">
+			<div class="container">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.jpg"/></a>
+					</div>
+					<div class="search">
+						<form>
+							<input type="text" name="" id="" placeholder="请输入商品或品牌" />
+							<button><span class="glyphicon glyphicon-search"></span>去发现</button>
+						</form>
+						<span class="ative">热搜榜：</span>
+						<ul class="hot">
+							<li class="on"><a href="#">女士卷发</a></li>
+							<li><a href="###">马尾</a></li>
+							<li class="on"><a href="###">卷发</a></li>
+							<li><a href="###">接发</a></li>
+							<li class="on"><a href="###">老年人</a></li>
+							<li><a href="###">发套</a></li>
+						</ul>
+					</div>
+					<div class="shop_cart">
+						<a href="shop_car.html">
+							<img src="images/shop_car_gray.png"/>
+							购物车
+							<span class="badge">3</span>
+						</a>
+					</div>
+			</div>
+			
+		</div>
+		
+		<div class="header_botton">
+			<div class="container">
+				<div class="nav_bar">
+					<h3><img src="images/nav_.png"/>全部商品分类</h3>
+					<ul class="assment">
+						<li>
+							<dl>
+								<dt><a href="shop_list.html">卷发</a></dt>
+								<dd><a href="shop_list.html">短发</a></dd>
+								<dd><a href="shop_list.html">中长发</a></dd>
+								<dd><a href="shop_list.html">卷发</a></dd>
+								<dd><a href="shop_list.html">超长发</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="shop_list.html">配件</a></dt>
+								<dd><a href="shop_list.html">接发</a></dd>
+								<dd><a href="shop_list.html">马尾</a></dd>
+								<dd><a href="shop_list.html">发卷</a></dd>
+								<dd><a href="shop_list.html">配饰</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="shop_list.html">发块</a></dt>
+								<dd><a href="shop_list.html">女士发块</a></dd>
+								<dd><a href="shop_list.html">男士发块</a></dd>
+								<dd><a href="shop_list.html">老年发块</a></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav_list">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="###">60秒闪购</a></li>
+					<li><a href="###">100%正品</a></li>
+					<li><a href="###">手机璐酷尔</a></li>
+				</ul>
+			</div>
+			<div class="side-bar">
+				<span class="glyphicon glyphicon-menu-down"></span>
+				<ul class="user_center">
+					<li><a href="shop_car.html"><img src="images/shop_car_white.png"/></a></li>
+					<li><a href="shop_car.html">购物车</a></li>
+					<li class="badge">0</li>
+					<li><a href="###"><img src="images/money.png" alt="money.png"/></a></li>
+					<li><a href="user.html"><img src="images/man.png" alt="man.png"/></a></li>
+					<li><a href="###"><img src="images/code.png" alt="code.png"/></a></li>
+					<li><a href="index.html"><img src="images/home.png" alt="home.png"/></a></li>
+					<li><span class="glyphicon glyphicon-menu-up"></span></li>
+				</ul>		
+			</div>
+		</div>
+		
+	</div>
+	<!--头部 end-->
+	
+	
+	<!--中部-->
+	<div id="middle">
+		<div class="container">
+			<!--主体上部分-->
+			<div class="middle_top clear">
+				<div class="middle_top_left">
+					<div id="smll_box">
+						<img src="images/pro_details_01.jpg" alt="pro_details_01.jpg"/>
+						<div id="box1"></div>
+					</div>
+					<div id="box"></div>
+					<div class="pro_list">
+						<ul class="small_list">
+							<li class="on"><a><img src="images/pro_details_01.jpg" alt="images/pro_details_01.jpg"/></a></li>
+							<li><a><img src="images/pro_details_small_02.jpg" alt="pro_details_small_02.jpg"/></a></li>
+							<li><a><img src="images/pro_details_01.jpg" alt="images/pro_details_01.jpg"/></a></li>
+							<li><a><img src="images/pro_details_small_04.jpg" alt="pro_details_small_04.jpg"/></a></li>
+							<li><a><img src="images/pro_details_01.jpg" alt="images/pro_details_01.jpg"/></a></li>
+							<li><a><img src="images/pro_details_small_05.jpg" alt="pro_details_small_05.jpg"/></a></li>
+						</ul>
+					</div>
+					<a class="prev"></a>
+					<a class="next"></a>
+				</div>
+				<div class="middle_top_right">
+					
+						<h4>瑞贝卡假发女士全头套中长发齐刘海长卷发梨花头冰冰逼真发套512</h4>
+						<h5>瑞贝卡假发 女士头套自然 梨花头齐刘海 冰冰款</h5>
+						<h4><span>价钱：</span><span>&yen;2480.00</span> <span>(降价通知)</span></h4>
+						<p>促销信息：<span>以下促销可在购物车任选其一</span></p>
+						<div class="add">
+							配 送 至：
+							<select name="" >
+								<option value="">广州市天河区</option>
+								<option value="">广州市越秀区</option>
+								<option value="">广州市白云区</option>
+								<option value="">广州市海珠区</option>
+								<option value="">广州市萝岗区</option>
+							</select>
+							有货
+						</div>
+						<div class="color">
+							<span>选择颜色：</span>
+							<a href="###">自然黑</a>
+							<a href="###">卡其色</a>
+							<a href="###" class="ative">金色</a>
+						</div>
+						<div class="num">
+							数量 <input value="1" id="num"/>
+							<a>
+								<span class="glyphicon glyphicon-menu-up add"></span>
+								<span class="glyphicon glyphicon-menu-down minus"></span>	
+							</a>
+							<b>件</b>
+							<b>库存<span>22</span>件</b>
+						</div>
+						<div class="button">
+							<a href="confirm_order.html">立即购买</a>
+							<a href="javascript:void(0)" onclick="setProduct()">加入购物车</a>
+						</div>
+				</div>
+			</div>
+			<!--主体上部分 end-->
+			<!--主体中部分-->
+			<div class="middle_center clear">
+				
+				
+					<div class="center_left">
+						<div class="nav_list">
+							<ul>
+								<li class="ative product"><a href="javascript:void(0)">商品介绍</a></li>
+								<li class="eva"><a href="javascript:void(0)">评论8845</a></li>
+								<li class="suce"><a href="avascript:void(0)">成交记录385</a></li>
+							</ul>
+						</div>
+						<div class="pro_par">
+							<h5>商品参数</h5>
+							<ul class="row">
+								<li class="col-xs-3">品牌：<span class="on">rebecca瑞贝卡</span></li>
+								<li class="col-xs-3">假发单品：<span>WMMHT-622</span></li>
+								<li class="col-xs-3">颜色分类：<span>黑色/卡其/自然</span></li>
+								<li class="col-xs-3">适用对象：<span>时尚女</span></li>
+								<li class="col-xs-3">假发刘海分类：<span>齐刘海</span></li>
+								<li class="col-xs-3">假发发型：<span>梨花头</span></li>
+								<li class="col-xs-3">风格：<span>甜美可爱</span></li>
+								<li class="col-xs-3">功效：<span>修饰脸型</span></li>
+								<li class="col-xs-3">材质：<span>70%人发</span></li>
+								<li class="col-xs-3">产品净重：<span>110±1G</span></li>
+								<li class="col-xs-3">尺码：<span>M</span></li>
+							</ul>
+						</div>
+						<div class="img">
+							<img src="images/pro_details_02.jpg" alt="pro_details_02.jpg"/>
+							<img src="images/pro_details_03.jpg" alt="pro_details_03.jpg"/>
+						</div>
+						
+						
+						<div class="left_bottom" style="display: none;">
+					<h4>商品评价</h4>
+					<div class="evaluate">
+						<div class="evaluate_left">
+							<p>
+								<a href="###">98</a>
+								<span>%</span>
+								<small>好评度</small>
+							</p>
+							<ul>
+								<li>好评(98%)<a href="###"><span></span></a></li>
+								<li>中评(1%)<a href="###"><span></span></a></li>
+								<li>差评(1%)<a href="###"><span></span></a></li>
+							</ul>
+						</div>
+						<div class="evaluate_right">
+							<p>买家印象：</p>
+							<ul>
+								<li><a href="###">质量很好</a></li>
+								<li><a href="###">大品牌(312)</a></li>
+								<li><a href="###">颜色很正(221)</a></li>
+								<li><a href="###">搭(183)</a></li>
+								<li><a href="###">颜色很正(221)</a></li>
+								<li><a href="###">百搭(183)</a></li>
+							</ul>
+						</div>
+					</div>
+					<h5>
+						<ul>
+							<li><a href="###">全部评价（5.2万+）</a></li>
+							<li><a href="###">晒图（200）</a></li>
+							<li><a href="###">好评（5.1万+）</a></li>
+							<li><a href="###">中评（600+）</a></li>
+							<li><a href="###">差评（300+）</a></li>
+							<li><input type="hidden" value="0"/><img src="images/checkbox_0.png"/><a href="###">只看当前商品</a></li>
+						</ul>
+					</h5>
+					<div class="evaluate_detail">
+						<ul class="out">
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<p>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+										<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									</p>
+									<p>购买37天后评价</p>
+									<p>2016-10-03 22:02</p>
+									<p>卡其色</p>
+								</div>
+								<div class="right">
+									<span><a href="###">长期信赖</a></span>
+									<span><a href="###">颜色很正</a></span>
+									<span><a href="###">好佩戴</a></span>
+									<span><a href="###">百搭</a></span>
+									<span><a href="###">还可以</a></span>
+									<p>买了两次了，质量很好</p>
+									<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				
+				</div>
+						
+						
+						
+					</div>
+				
+				
+				<div class="center_right">
+					<h5>商品精选</h5>
+					<ul>
+						<li>
+							<a href="###"><img src="images/pro_details_04.jpg" alt="pro_details_04.jpg"/></a>
+							<h5><a href="###">恒发假发 真发假发 短发 女 中老年假发 女 妈妈假发 </a></h5>
+							<p>&yen;<span>450</span></p>
+							<p>已有8727人评价</p>
+						</li>
+						<li>
+							<a href="###"><img src="images/pro_details_05.jpg" alt="pro_details_05.jpg"/></a>
+							<h5><a href="###">海森林假发女短发自然逼真短卷发斜刘海中妈妈发套包邮 </a></h5>
+							<p>&yen;<span>395</span></p>
+							<p>已有2887人评价</p>
+						</li>
+						<li>
+							<a href="###"><img src="images/pro_details_05.jpg" alt="pro_details_05.jpg"/></a>
+							<h5><a href="###">海森林假发女短发自然逼真短卷发斜刘海中妈妈发套包邮 </a></h5>
+							<p>&yen;<span>395</span></p>
+							<p>已有2887人评价</p>
+						</li>
+						<li>
+							<a href="###"><img src="images/pro_details_05.jpg" alt="pro_details_05.jpg"/></a>
+							<h5><a href="###">海森林假发女短发自然逼真短卷发斜刘海中妈妈发套包邮 </a></h5>
+							<p>&yen;<span>395</span></p>
+							<p>已有2887人评价</p>
+						</li>
+						<li>
+							<a href="###"><img src="images/pro_details_05.jpg" alt="pro_details_05.jpg"/></a>
+							<h5><a href="###">海森林假发女短发自然逼真短卷发斜刘海中妈妈发套包邮 </a></h5>
+							<p>&yen;<span>395</span></p>
+							<p>已有2887人评价</p>
+						</li>
+						<li>
+							<a href="###"><img src="images/pro_details_04.jpg" alt="pro_details_04.jpg"/></a>
+							<h5><a href="###">恒发假发 真发假发 短发 女 中老年假发 女 妈妈假发 </a></h5>
+							<p>&yen;<span>450</span></p>
+							<p>已有8727人评价</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--主体中部分 end-->
+			<!--主体下部分-->
+			<div class="middle_bottom clear">
+				<h4>商品评价</h4>
+				<div class="evaluate clear">
+					<div class="evaluate_left">
+						<p>
+							<a href="###">98</a>
+							<span>%</span>
+							<small>好评度</small>
+						</p>
+						<ul>
+							<li>好评(98%)<a href="###"><span></span></a></li>
+							<li>中评(1%)<a href="###"><span></span></a></li>
+							<li>差评(1%)<a href="###"><span></span></a></li>
+						</ul>
+					</div>
+					<div class="evaluate_right">
+						<p>卖家印象：</p>
+						<ul>
+							<li><a href="###">质量很好</a></li>
+							<li><a href="###">大品牌(312)</a></li>
+							<li><a href="###">佩戴方便(301)</a></li>
+							<li><a href="###">口味不错(248)</a></li>
+							<li><a href="###">颜色很正(221)</a></li>
+							<li><a href="###">百搭(183)</a></li>
+							<li><a href="###">包装精致(171)</a></li>
+							<li><a href="###">长期信赖(218)</a></li>
+						</ul>
+					</div>
+				</div>
+				<h5>
+					<ul>
+						<li><a href="###">全部评价（5.2万+）</a></li>
+						<li><a href="###">晒图（200）</a></li>
+						<li><a href="###">好评（5.1万+）</a></li>
+						<li><a href="###">中评（600+）</a></li>
+						<li><a href="###">差评（300+）</a></li>
+						<li><input type="hidden" value="0" /><img src="images/checkbox_0.png"/><a href="###">只看当前商品</a></li>
+					</ul>
+				</h5>
+				<div class="evaluate_detail">
+					<ul class="out">
+						<li>
+							<div class="li_left">
+								<p>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+								</p>
+								<p>购买37天后评价</p>
+								<p>2016-10-03 22:02</p>
+								<p>卡其色</p>
+							</div>
+							<div class="li_right">
+								<span><a href="###">长期信赖</a></span>
+								<span><a href="###">颜色很正</a></span>
+								<span><a href="###">好佩戴</a></span>
+								<span><a href="###">百搭</a></span>
+								<span><a href="###">还可以</a></span>
+								<p>买了两次了，质量很好</p>
+								<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+							</div>
+						</li>
+						<li>
+							<div class="li_left">
+								<p>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+								</p>
+								<p>购买37天后评价</p>
+								<p>2016-10-03 22:02</p>
+								<p>卡其色</p>
+							</div>
+							<div class="li_right">
+								<span><a href="###">长期信赖</a></span>
+								<span><a href="###">颜色很正</a></span>
+								<span><a href="###">好佩戴</a></span>
+								<span><a href="###">百搭</a></span>
+								<span><a href="###">还可以</a></span>
+								<p>买了两次了，质量很好</p>
+								<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+							</div>
+						</li>
+						<li>
+							<div class="li_left">
+								<p>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+									<img src="images/pro_details_star.png" alt="pro_details_star.png"/>
+								</p>
+								<p>购买37天后评价</p>
+								<p>2016-10-03 22:02</p>
+								<p>卡其色</p>
+							</div>
+							<div class="li_right">
+								<span><a href="###">长期信赖</a></span>
+								<span><a href="###">颜色很正</a></span>
+								<span><a href="###">好佩戴</a></span>
+								<span><a href="###">百搭</a></span>
+								<span><a href="###">还可以</a></span>
+								<p>买了两次了，质量很好</p>
+								<p><a href="###">点赞（5）</a><a href="###">回复（5）</a></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page">
+					<ul>
+						<li class="on"><a href="###">1</a></li>
+						<li><a href="###">2</a></li>
+						<li><a href="###">3</a></li>
+						<li><a href="###">4</a></li>
+						<li><a href="###">5</a></li>
+						<li><a href="###">6</a></li>
+						<li><a href="###">...</a></li>
+						<li><a href="###">20</a></li>
+						<li class="next"><a href="###">下一页</a></li>
+					</ul>
+				</div>
+			<!--主体下部分 end-->
+			
+		</div>
+	</div>
+	<!--中部 end-->
+	
+	<!--底部-->
+	<div id="footer">
+		<div class="footer_top">
+			<div class="center">
+				<h4>更多感兴趣的商品马上搜索</h4>
+				<form>
+					<input type="text" placeholder="面膜" />
+					<span class="glyphicon glyphicon-search"></span>
+				</form>
+				<span class="ative">热搜榜：</span>
+				<ul class="hot">
+					<li class="on"><a href="shop_list.html">女士假发</a></li>
+					<li><a href="shop_list.html">短发</a></li>
+					<li class="on"><a href="shop_list.html">马尾</a></li>
+					<li><a href="shop_list.html">接发</a></li>
+					<li class="on"><a href="shop_list.html">短发</a></li>
+				</ul>
+				<div class="chop">
+					<figure>
+						<img src="images/footer_good.png"/>
+						<figcaption>
+							<p>正品保障</p>
+							<p>Genuine</p>
+						</figcaption >
+					</figure >
+					<figure>
+						<img src="images/footer_day.png"/>
+						<figcaption>
+							<p>30天无理由退换货</p>
+							<p>Promise</p>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/footer_car.png"/>
+						<figcaption>
+							<p>48小时闪电发货</p>
+							<p>Speedy Delivery</p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer_botoom">
+			<div class="container">
+				<div class="left">
+					<p>
+						<a href="###">关于丽子</a>
+						<a href="###">商家入驻</a>
+						<a href="###">计入我们</a>
+						<a href="###">配送政策</a>
+						<a href="###">售后保障</a>
+						<a href="###">帮助中心</a>
+						<a href="###">联系我们</a>
+						<a href="###">平台公告</a>
+					</p>
+					<p>
+						<span>服务时间：09:00-23:00</span>
+						<span>客服热线：400-106-6666</span>
+					</p>
+					<p>
+						<a href="###">韩都衣舍</a>
+						<a href="###">优购物</a>
+						<a href="###">寺库网</a>
+						<a href="###">海尔商城</a>
+						<a href="###">挖东西</a>
+						<a href="###">视客眼镜网</a>
+						<a href="###">尚品网</a>
+						<a href="###">飞牛网</a>
+						<a href="###">悦美整形网</a>
+						
+					</p>
+					<p>
+						(C) SVENSON Company Limited. ALL RIGHTS RESERVED
+						沪ICP 备08110546 号
+					</p>
+				</div>
+				<div class="right">
+					<img src="images/footer_code.png"/>
+					<img src="images/wechat.png"/>
+					<p>扫描光柱微信公众号</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--底部 end-->
+	</body>
+	
+</html>

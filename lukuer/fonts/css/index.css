@@ -1,0 +1,9 @@
+.banner{ height: 600px; overflow: hidden;position: relative;width:100%; }
+.banner .bd{ height: 600px; overflow: hidden;}
+.banner .bd li{ height: 600px; overflow: hidden; position: relative; float: left;width: 100%;}
+.banner .bd li a{ position: absolute; width: 1920px; left: 50%; margin-left: -960px;}
+.banner .hd{ position: absolute; bottom: 20px; text-align: center; width: 100%;}
+.banner .hd ul{ display: inline-block;*display: inline;*zoom:1;}
+.banner .hd li{ width: 13px;height: 13px; border-radius: 50%; cursor: pointer; float: left; margin: 0 10px;background:#999888;}
+.banner .hd li.on{ background: #ff666b;}
+.banner .hd li:hover{ background: #ff666b;}

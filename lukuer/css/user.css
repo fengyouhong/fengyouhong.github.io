@@ -1,0 +1,226 @@
+#middle{
+	background: #f2f1f1;
+}
+#middle .user{
+	background: #FFFFFF;
+	width: 1200px;
+	border: 1px solid #c7c6c6;
+	margin-top: 83px;
+	margin-bottom: 103px;
+	overflow: hidden;
+}
+#middle .user .left_list{
+	width: 148px;
+	background: #e3e3e3;
+	float: left;
+	padding-bottom: 200px;
+}
+#middle .user .left_list div{
+	margin-bottom: 30px;
+}
+#middle .user .left_list div h4{
+	color: #3b3b3b;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#middle .user .left_list div ul{
+	padding: 0;
+	width: 100%;
+}
+#middle .user .left_list div ul li{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#middle .user .left_list div ul li a{
+	color: #6a6a6a;
+	font-size: 14px;
+}
+#middle .user .left_list div ul li.on a{
+	color: #f93b3b;
+}
+#middle .user .left_list div ul li:hover a{
+	color: #f93b3b;
+}
+#middle .user .user_details{
+	width: 1050px;
+	float: left;
+	background: #ffffff;
+}
+#middle .user .user_details .user_details_top{
+	overflow: hidden;
+}
+#middle .user .user_details .user_details_top .img{
+	float: left;
+
+	margin: 30px 0 30px 66px;
+}
+#middle .user .user_details .user_details_top .img a{
+	display: block;
+}
+#middle .user .user_details .user_details_top .img a img{
+	width:184px;
+	height: 184px;
+	border: 1px solid #d4d4d4;
+}
+#middle .user .user_details .user_details_top .top_center{
+	float: left;
+	width: 350px;
+	margin-top: 80px;
+	margin-left: 5px;
+}
+#middle .user .user_details .user_details_top .top_center h4{
+	color: #000000;
+	font-size: 16px;
+}
+#middle .user .user_details .user_details_top .top_center h5{
+	font-size:16px ;
+	color: #000000;
+	
+}
+
+#middle .user .user_details .user_details_top .top_center h5 span{
+	 float:left ;
+	 display:block;
+	 height: 30px;
+	 line-height: 30px;
+	
+}
+#middle .user .user_details .user_details_top .top_center h5 p{
+	width: 170px;
+	height: 26px;
+	background: #d4d4d4;
+	display: inline-block;
+	margin: 0;
+	float: left;
+}
+#middle .user .user_details .user_details_top .top_center h5 span:nth-child(3){
+	color: #ff0000;
+	margin: 0 17px;
+}
+#middle .user .user_details .user_details_top .top_center h5 span:nth-child(4) a{
+	color: #2554d9;
+}
+#middle .user .user_details .user_details_top .top_center h5 p b{
+	display: block;
+	height: 100%;
+	width: 70%;
+	background: #ff0000;
+	margin: 0;
+}
+#middle .user .user_details .user_details_top .top_right{
+	float: left;
+	margin-top: 110px;
+	
+}
+
+#middle .user .user_details .user_details_top .top_right ul{
+	padding: 0;
+}
+#middle .user .user_details .user_details_top .top_right ul li{
+	float: left;
+	width: 65px;
+	margin-right: 10px;
+	
+}
+#middle .user .user_details .user_details_top .top_right ul li img{
+	display: inline-block;
+	margin-left: 5px;
+}
+#middle .user .user_details .user_details_top .top_right ul li p{
+	color: #6e6e6f;
+	font-size: 16px;
+}
+#middle .user .user_details .user_details_top .top_right ul li p span{
+	color: #ff67a0;
+	font-size: 16px;
+}
+#middle .user .user_details .my_order{
+	width: 960px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e3e3e3;
+	border-top: 1px solid #e3e3e3;
+}
+#middle .user .user_details .my_order h4{
+	height: 67px;
+	color: #403f3f;
+	font-size:16px;
+	line-height: 67px;
+	padding-left: 45px;
+}
+#middle .user .user_details .my_order h4 a{
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+	color: #045ef3;
+}
+#middle .user .user_details .my_order table{
+	margin-bottom: 68px;
+}
+#middle .user .user_details .my_order table tr{
+	border: 1px solid #e3e3e3;
+	width: 100%;
+	height: 130px;
+}
+#middle .user .user_details .my_order table tr .img{
+	width: 150px;
+
+}
+#middle .user .user_details .my_order table tr .img a{
+	width: 86px;
+	height: 86px;
+	display: block;
+	margin: auto auto;
+}
+#middle .user .user_details .my_order table tr .img img{
+	width: 100%;
+	height: 100%;
+	
+}
+#middle .user .user_details .my_order table tr .text{
+	width: 300px;
+	height: 130px;
+	line-height: 130px;
+	font-size: 14px;
+	
+}
+#middle .user .user_details .my_order table tr .text a{
+	color: #646464;
+}
+#middle .user .user_details .my_order table tr .price{
+	width: 120px;
+	height: 130px;
+	font-size: 14px;
+	
+}
+#middle .user .user_details .my_order table tr .price p{
+	text-align: center;
+	font-size: 14px;
+	color: #646464;
+}
+#middle .user .user_details .my_order table tr .price p span{
+	display: block;
+	font-size: 14px;
+	color: #ff000c;
+}
+#middle .user .user_details .my_order table tr .time{
+	width: 120px;
+	height: 130px;
+	text-align: center;
+}
+#middle .user .user_details .my_order table tr .wait{
+	width: 160px;
+	height: 130px;
+	text-align: center;
+	color: #f57d08;
+}
+#middle .user .user_details .my_order table tr .look{
+	width: 110px;
+	height: 130px;
+	text-align: center;
+}
+#middle .user .user_details .my_order table tr .look a{
+	color: #8f8f8e;
+}

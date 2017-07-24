@@ -1,0 +1,114 @@
+#middle{
+	background: #f5f5f5;
+}
+#middle .img{
+	float: left;
+	margin: 100px 0 170px -190px;
+}
+#middle .form{
+	float: left;
+	margin-top: 127px;
+	margin-left: 100px;
+	width: 472px;
+	height: 556px;
+	border: 1px solid #a3a3a3;
+	font-weight: normal;
+	background: #FFFFFF;
+}
+#middle .form form{
+	
+}
+#middle .form  h3{
+	text-align: center;
+	color: #4b4b4b;
+}
+#middle .form  p{
+	float: right;
+	margin-right: 65px;
+	color: #4b4b4b;
+}
+#middle .form  p a{
+	color: #4b4b4b;
+	text-decoration: underline !important;
+}
+#middle .form form label{
+	width: 346px;
+	height: 47px;
+	border: 2px solid #d4d4d4;
+	border-radius: 1px;
+	font-weight: normal;
+	color: #3a3939;
+	line-height: 47px;
+	padding-left: 28px;
+	margin-left: 60px;
+	margin-bottom: 15px;
+}
+#middle .form form label input{
+	height: 100%;
+	width: 230px;
+	float: right;
+	border: 0;
+	background: none;
+	outline: medium;
+	padding: 0 10px;
+}
+#middle .form form label div{
+	color: #ff0000; 
+	font-size: 14px; 
+	line-height: 20px;
+	padding-left: 90px;
+	display: none;
+}
+#middle .form form .code{
+	width: 134px;
+	height: 49px;
+	border: none;
+	padding: 0;
+}
+#middle .form form .code input{
+	float: left;
+	width: 121px;
+	height: 47px;
+	border: 1px solid #d4d4d4;
+	width: 100%;
+	
+}
+#middle .form form div.codetip{
+	padding: 0;
+	font-size: 13px;
+}
+#middle .form form  img.codeimg{
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	height: 47px;
+	width: 133px;
+	border: 1px solid #d4d4d4;
+	margin-right: 63px;
+}
+#middle .form form #submit{
+	outline: none;
+	display: block;
+	width: 347px;
+	height: 43px;
+	border: 1px solid #d4d4d4;
+	background: #f93b3b;
+	color: #FFFFFF;
+	margin-left: 60px;
+}
+#middle .form h5{
+	margin-left: 60px;
+}
+#middle .form p:last-child{
+	text-align: left;
+	margin-left: 60px;
+	float: left;
+}
+#middle .form p:last-child a{
+	margin-right: 12px;
+	display: inline-block;
+}
+#middle .form p:last-child img{
+	width: 100%;
+	
+}
