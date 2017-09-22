@@ -15,14 +15,14 @@
 	
 	<script>
 		// show delete buttons on swipe
+		$(function() {
+
+			 UA =  window.navigator.userAgent;
+			 $('aa').html(UA)
+		 	alert(/ipad|iphone|android/.test(UA))
+		})
 		
-		 UA =  window.navigator.userAgent;
-		 $('aa').html(UA)
-		 alert(/ipad|iphone|android/.test(UA))
-		
-		 if(/ipad|iphone|android/.test(UA)){
-		 	alert(123)
-		 }
+		 
 		
 </script>
 </body>
