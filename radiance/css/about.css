@@ -1,0 +1,10 @@
+#middle { padding-top: 150px; overflow: hidden; margin-bottom: 50px; }
+#middle p { color: #989a9f; font-size: 16px; line-height: 27px; margin-bottom: 50px; }
+#middle .big_title { margin-top: 70px; margin-bottom: 50px; color: #ebecef; text-align: center; font-size: 37px; }
+#middle .big_title p { color: #EBECEF !important; font-size: 13px; }
+#middle .big_title p a { color: #EBECEF; }
+#middle .big_title p span { margin: 0 3px; }
+
+.contant { margin: 0 auto; }
+
+/*# sourceMappingURL=about.css.map */

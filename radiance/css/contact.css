@@ -1,0 +1,21 @@
+.contant { margin: 0 auto; }
+
+#middle { padding-top: 100px; overflow: hidden; margin-bottom: 50px; }
+#middle p { color: #989a9f; font-size: 16px; line-height: 27px; }
+#middle .big_title { margin-top: 70px; margin-bottom: 30px; color: #ebecef; text-align: center; font-size: 37px; }
+#middle .big_title p { color: #EBECEF !important; font-size: 13px; }
+#middle .big_title p a { color: #EBECEF; }
+#middle .big_title p span { margin: 0 3px; }
+#middle .blocks { margin-bottom: 30px; }
+#middle .blocks p { margin: 0; }
+#middle .blocks a { color: #616268; text-decoration: underline; }
+#middle .blocks h4 { color: #EBECEF; }
+#middle .form_list form { width: 100%; }
+#middle .form_list form > div { width: 90%; margin: 0 auto; height: 40px; border-radius: 5px; margin-bottom: 10px; }
+#middle .form_list form > div input[type='text'] { border-radius: 5px; width: 100%; border: none; height: 100%; background: #FFFFff; padding: 0 8px; }
+#middle .form_list form > div input[type='submit'] { background: #616268; width: 75px; height: 32px; border-radius: 5px; border: none; color: #FFFFFF; }
+#middle .form_list form > div button { background: no-repeat; float: right; color: #FFFFFF; border: none; }
+#middle .form_list form .textarea_ { height: auto; }
+#middle .form_list form .textarea_ textarea { width: 100%; min-height: 100px; background: #FFFFFF; padding: 5px; border-radius: 5px; }
+
+/*# sourceMappingURL=contact.css.map */

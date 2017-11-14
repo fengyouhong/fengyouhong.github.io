@@ -1,0 +1,20 @@
+#middle { margin-top: 100px; }
+#middle .proinflio_img { min-height: 780px; /* mq */ }
+#middle .proinflio_img .filo_title { text-align: center; color: #ffffff; font-size: 38px; line-height: 90px; }
+#middle .proinflio_img .demo1 { position: relative; opacity: 0; transition: .2s ease; margin-bottom: 60px; }
+#middle .proinflio_img .grid1 { position: relative; /* fluffy */ margin: 0 auto; width: 98%; /* end fluffy */ }
+#middle .proinflio_img .grid-item1 { position: absolute; top: 0; left: 0; /* fluffy */ width: 316px; border-radius: 3px; /* end fluffy */ -webkit-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out; }
+#middle .proinflio_img .grid-item1 img { width: 100%; }
+@media (max-width: 600px) { #middle .proinflio_img .grid-item1 { width: 120px; height: 80px; } }
+
+@media only screen and (max-width: 820px) { #middle { margin-top: 80px; } }
+@media only screen and (min-width: 1099px) { .img_alert { width: 1077px; } }
+body { position: relative; }
+
+.img_alert { display: none; position: fixed; background: #000000; width: 90%; overflow: hidden; height: 80%; left: 50%; top: 85px; z-index: 100; }
+.img_alert .text_explain { margin-top: 15px; position: relative; color: #FFFFFF; width: 100%; font-size: 28px; text-align: center; line-height: 35px; width: 100%; padding: 0 50px; }
+.img_alert .img { height: 80%; width: 80%; margin: 0 auto; margin-top: 20px; }
+.img_alert .img img { height: 100%; display: block; margin: 0 auto; }
+.img_alert .close_alert { width: 20px; height: 20px; position: absolute; top: 20px; right: 20px; color: #FFFFFF; font-size: 26px; line-height: 20px; }
+
+/*# sourceMappingURL=portfolio.css.map */
