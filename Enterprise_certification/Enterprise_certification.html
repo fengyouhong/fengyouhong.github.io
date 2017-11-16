@@ -57,7 +57,11 @@
 				   	<div class="form-group">
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>邮箱：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	 <div class="input-group">
+					            <input type="text" class="form-control">
+					            <span class="input-group-addon" data-toggle="modal" data-target="#myModal"
+>获取验证码</span>
+				        	 </div>
 				        	<p class="error_tip"><span>-</span>错误提示</p>
 				     	</div>
 				   	</div>
@@ -270,9 +274,37 @@
 				     		<p class="error_tip"><span>-</span>错误提示</p>
 				      	</div>
 				   	</div>
-				   		<button type="submit" class="btn btn-danger btn-lg sub_info">确认提交</button>
+				   		<button type="submit" class="btn btn-danger sub_info">确认提交</button>
 				   	
 				</form>
+				
+				
+				
+				
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
+				   aria-labelledby="myModalLabel" aria-hidden="true">
+				   <div class="modal-dialog">
+				      <div class="modal-content">
+				         <div class="modal-header">
+				            <button type="button" class="close" 
+				               data-dismiss="modal" aria-hidden="true">
+				                  &times;
+				            </button>
+				            <h4 class="modal-title" id="myModalLabel">
+				               	提示	
+				            </h4>
+				         </div>
+				         <div class="modal-body">
+				            	请及时登录xxxx邮箱查看您的验证码。
+				         </div>
+				         <div class="modal-footer">
+				            <button type="button" class="btn btn-default" 
+				               data-dismiss="modal">关闭
+				            </button>
+				         </div>
+				      </div><!-- /.modal-content -->
+				</div>
+
 			</div>
 		</div>
 	</body>
