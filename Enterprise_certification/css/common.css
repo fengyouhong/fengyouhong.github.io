@@ -1,0 +1,62 @@
+.header{height: 30px;background: #e7e7e7;box-sizing: border-box;}
+.header .nav_left{float: left;}
+.header .nav_left li{float: left;color: #999999;margin-right: 12px;line-height: 30px;font-size: 14px;}
+.header .nav_left .regester a{color: #dc1a35;}
+.header .nav_right{float: right;}
+.header .nav_right li{float: left;line-height: 30px;font-size: 14px;color: #999999;position: relative;box-sizing: border-box;}
+.header .nav_right .nav_title{padding: 0 6px;}
+.header .nav_right .nav_title a{height:30px;display: inline-block;}
+.header .nav_right .my_word .nav_title a{background: url(../img/common_img/upload.png) no-repeat right;padding-right: 16px;}
+.header .nav_right .my_word:hover .nav_title a{background: url(../img/common_img/download.png) no-repeat right;}
+.header .nav_right .headbar .nav_title a{background: url(../img/common_img/upload.png) no-repeat right;padding-right: 16px;}
+.header .nav_right .headbar:hover .nav_title a{background: url(../img/common_img/download.png) no-repeat right;}
+.header .nav_content{display: none;position: absolute;top: 30px;font-size: 14px;background-color: #fff;}
+.header .nav_right .headbar:hover .nav_title,.header .nav_right .my_word:hover .nav_title{background: #ffffff;}
+.header .nav_right .headbar:hover .nav_title a,.header .nav_right .my_word:hover .nav_title a{color: #DB1A35;}
+.header .nav_right li:hover .nav_content{display: block;z-index: 10;font-size: 14px;border: 1px solid #ececec;border-top: none;}
+.header .nav_right span{color: #DB1A35;}
+.header .nav_right .headbar .nav_content{right: 0;width: 300px;}
+.header .nav_right .my_word .nav_content{left: 0;width: 300px;}
+.header .nav_right .nav_content dl{float: left;padding: 0 6px;}
+.shop_search_pro {
+	height: 90px;
+	width: 100%;
+}
+.shop_search_pro .img_logo{
+	float: left;
+	margin-top: 20px;
+}
+.shop_search_pro .sea_input{
+	height: 40px;
+	float: right;
+	margin-top: 33px;
+}
+.shop_search_pro .sea_input input{
+	float: left;
+}
+.shop_search_pro .sea_input input#search_text{
+	width: 485px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px #004e89 solid;
+	padding: 20px;
+	font-size: 18px;
+	color: #666666;
+}
+.shop_search_pro .sea_input input#search_all{
+	width: 93px;
+	height: 40px;
+	background: #004e89;
+	border: none;
+	color: #ffffff;
+	font-size: 18px;
+	margin-right: 2px;
+}
+.shop_search_pro .sea_input input#search_this_shop{
+	width: 93px;
+	height: 40px;
+	background: #7fa6c4;
+	border: none;
+	color: #ffffff;
+	font-size: 18px;
+}

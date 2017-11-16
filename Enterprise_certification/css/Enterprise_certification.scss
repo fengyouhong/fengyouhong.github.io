@@ -1,0 +1,32 @@
+
+.main_nav{border-bottom: 2px solid #004e89;}
+.main_nav .menu{background: #004e89;width: 158px;text-align: center;}
+.main_nav .menu p{padding: 0;}
+.class_header{
+    height: 16px;
+    line-height: 16px;
+    padding-left: 5px;
+    border-left: 3px #004e89 solid;
+    margin-bottom: 35px;
+    h3 {
+     font-size: 16px;
+     font-weight: normal;   
+    }
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 160px;
+    button.sub_info{
+        display: block;
+        margin:  0 auto;
+    }
+    .select_bottom{
+        margin-bottom: 10px;
+    }
+    span.color_red{
+        color: #dd1935;
+    }
+    input.money_num{
+        width: 100%;
+    }
+}

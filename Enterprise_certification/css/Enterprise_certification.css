@@ -1,0 +1,16 @@
+.main_nav { border-bottom: 2px solid #004e89; }
+
+.main_nav .menu { background: #004e89; width: 158px; text-align: center; }
+
+.main_nav .menu p { padding: 0; }
+
+.class_header { height: 16px; line-height: 16px; padding-left: 5px; border-left: 3px #004e89 solid; margin-bottom: 35px; }
+.class_header h3 { font-size: 16px; font-weight: normal; }
+
+form { margin-top: 20px; margin-bottom: 160px; }
+form button.sub_info { display: block; margin: 0 auto; }
+form .select_bottom { margin-bottom: 10px; }
+form span.color_red { color: #dd1935; }
+form input.money_num { width: 100%; }
+
+/*# sourceMappingURL=Enterprise_certification.css.map */
