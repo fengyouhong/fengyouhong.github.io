@@ -9,10 +9,13 @@
 		<link rel="stylesheet" href="css/inquiry_common.css" />
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/Enterprise_certification.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
 		<link rel="stylesheet" href="laydate/need/laydate.css" />
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
 		<script type="text/javascript" src="js/bootstrap.js" ></script>
 		<script type="text/javascript" src="laydate/laydate.js" ></script>
+		<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" ></script>
+		<script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" ></script>
 		<script type="text/javascript" src="js/Enterprise_certification.js" ></script>
 	</head>
 	<body>
@@ -145,9 +148,22 @@
 				   	<div class="form-group">
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>成立时间：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control laydate-icon" id="end2" >
+				        	<input type="text" class="form-control " id="datetimepicker"  >
 				     		<p class="error_tip"><span>-</span>错误提示</p>
 				      	</div>
+				      	<script>
+				      		$('#datetimepicker').datetimepicker({
+						        language:  'zh-CN',  //日期
+						        weekStart: 1,
+						        todayBtn:  1,
+						        autoclose: 1,
+						        todayHighlight: 1,
+						        startView: 2,
+						        minView: 2,
+						        forceParse: 0
+						    });
+
+				      	</script>
 				   	</div>
 				   	<div class="form-group">
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>注册资本：</label>
