@@ -3,6 +3,10 @@
 .main_nav .menu{background: #004e89;width: 158px;text-align: center;margin-left: 50px;}
 .main_nav .menu p{padding: 0;}
 
+.main_nav{height: 40px;font-size: 22px;border-bottom: 1px solid #dddddd;}
+.main_nav .menu{width: 210px;height: 40px;line-height: 40px;color: #fff;float: left;cursor: pointer;}
+
+.main_nav .menu p a{color: #fff;}
 
 .class_header{
     height: 16px;
