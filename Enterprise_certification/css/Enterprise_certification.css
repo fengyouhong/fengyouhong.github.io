@@ -4,7 +4,7 @@
 
 .main_nav .menu p { padding: 0; }
 
-.main_nav { height: 40px; font-size: 22px; border-bottom: 1px solid #dddddd; }
+.main_nav { height: 40px; font-size: 22px; }
 
 .main_nav .menu { width: 210px; height: 40px; line-height: 40px; color: #fff; float: left; cursor: pointer; }
 
@@ -18,7 +18,5 @@ form button.sub_info { display: block; margin: 0 auto; }
 form .select_bottom { margin-bottom: 10px; }
 form span.color_red { color: #dd1935; }
 form input.money_num { width: 100%; }
-form p.error_tip { font-size: 16px; line-height: 20px; color: #dd1935; }
-form p.error_tip span { display: block; float: left; width: 12px; height: 12px; line-height: 12px; color: #fff; background: #dd1935; border-radius: 50%; text-align: center; margin: 5px 3px 0 12px; }
 
 /*# sourceMappingURL=Enterprise_certification.css.map */

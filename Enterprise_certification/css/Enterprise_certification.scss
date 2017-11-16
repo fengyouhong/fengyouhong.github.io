@@ -3,7 +3,7 @@
 .main_nav .menu{background: #004e89;width: 158px;text-align: center;margin-left: 50px;}
 .main_nav .menu p{padding: 0;}
 
-.main_nav{height: 40px;font-size: 22px;border-bottom: 1px solid #dddddd;}
+.main_nav{height: 40px;font-size: 22px;}
 .main_nav .menu{width: 210px;height: 40px;line-height: 40px;color: #fff;float: left;cursor: pointer;}
 
 .main_nav .menu p a{color: #fff;}
@@ -38,21 +38,5 @@ form{
     input{
 //      width: 350px !important;
     }
-    p.error_tip{
-        font-size: 16px;
-        line-height: 20px;
-        color: #dd1935;
-        span{
-            display: block;
-            float: left;
-            width: 12px;
-            height: 12px;
-            line-height: 12px;
-            color: #fff;
-            background: #dd1935;
-            border-radius: 50%;
-            text-align: center;
-            margin: 5px 3px 0 12px;
-        }
-    }
+ 
 }
