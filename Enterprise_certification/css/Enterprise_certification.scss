@@ -26,6 +26,9 @@ form{
         display: block;
         margin:  0 auto;
     }
+    .form-control[readonly]{
+        background: none;
+    }
     .select_bottom{
         margin-bottom: 10px;
     }

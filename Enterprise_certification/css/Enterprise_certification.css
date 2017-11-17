@@ -15,6 +15,7 @@
 
 form { margin-top: 20px; margin-bottom: 160px; }
 form button.sub_info { display: block; margin: 0 auto; }
+form .form-control[readonly] { background: none; }
 form .select_bottom { margin-bottom: 10px; }
 form span.color_red { color: #dd1935; }
 form input.money_num { width: 100%; }
