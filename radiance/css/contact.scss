@@ -42,48 +42,18 @@
        }
     }
     .form_list{
-        form{
-            width: 100%;
-            &>div{
-                width: 90%;
-                margin: 0 auto;
-                height: 40px;
-                border-radius: 5px;
-                margin-bottom: 10px;
-                input[type='text']{
-                     border-radius: 5px;
-                    width: 100%;
-                    border: none;
-                    height: 100%;
-                    background: #FFFFff;
-                    padding: 0 8px;
-                }
-                input[type='submit']{
-                    background: #616268;
-                    width: 75px;
-                    height: 32px;
-                    border-radius: 5px;
-                    border: none;
-                    color: #FFFFFF;
-                }
-                button{
-                    background: no-repeat;
-                    float: right;
-                    color: #FFFFFF;
-                    border: none;
-                }
-                
-            }
-            .textarea_ {
-                height: auto;
-                textarea{
-                    width: 100%;
-                    min-height: 100px;
-                    background: #FFFFFF;
-                    padding: 5px;
-                    border-radius: 5px;
-                }
-            }
+       #allmap{
+           width:100%;
+           overflow: hidden;
+           height: 500px;
+           position: relative;
+           img{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               margin-left:-780px ;
+               margin-top: -590px;
+           }
         }
     }
 }

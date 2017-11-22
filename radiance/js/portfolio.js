@@ -7,7 +7,9 @@ $(function(){
 	item.click(function(){
 		$('.img_alert').show();
 		Srcimg = $(this).find('img').attr('src');
-		$('.img_alert .img img').attr('src',Srcimg)
+		title = $(this).find('img').attr('title')
+		$('.img_alert .img img').attr('src',Srcimg);
+		$('.img_alert .text_explain').text(title)
 	})
 	$('.close_alert').click(function(){
 		$('.img_alert').hide();

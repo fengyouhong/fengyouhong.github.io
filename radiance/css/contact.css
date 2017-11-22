@@ -10,12 +10,7 @@
 #middle .blocks p { margin: 0; }
 #middle .blocks a { color: #616268; text-decoration: underline; }
 #middle .blocks h4 { color: #EBECEF; }
-#middle .form_list form { width: 100%; }
-#middle .form_list form > div { width: 90%; margin: 0 auto; height: 40px; border-radius: 5px; margin-bottom: 10px; }
-#middle .form_list form > div input[type='text'] { border-radius: 5px; width: 100%; border: none; height: 100%; background: #FFFFff; padding: 0 8px; }
-#middle .form_list form > div input[type='submit'] { background: #616268; width: 75px; height: 32px; border-radius: 5px; border: none; color: #FFFFFF; }
-#middle .form_list form > div button { background: no-repeat; float: right; color: #FFFFFF; border: none; }
-#middle .form_list form .textarea_ { height: auto; }
-#middle .form_list form .textarea_ textarea { width: 100%; min-height: 100px; background: #FFFFFF; padding: 5px; border-radius: 5px; }
+#middle .form_list #allmap { width: 100%; overflow: hidden; height: 500px; position: relative; }
+#middle .form_list #allmap img { position: absolute; top: 50%; left: 50%; margin-left: -780px; margin-top: -590px; }
 
 /*# sourceMappingURL=contact.css.map */
