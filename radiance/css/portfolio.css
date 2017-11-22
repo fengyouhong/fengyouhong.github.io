@@ -11,7 +11,7 @@
 @media only screen and (min-width: 1099px) { .img_alert { width: 1077px; } }
 body { position: relative; }
 
-.img_alert { display: none; position: fixed; background: #000000; width: 90%; overflow: hidden; height: 80%; left: 50%; top: 85px; z-index: 100; }
+.img_alert { display: none; position: fixed; background: #000000; width: 90%; overflow: hidden; height: 80%; left: 50%; top: 50%; z-index: 100; }
 .img_alert .text_explain { margin-top: 15px; position: relative; color: #FFFFFF; width: 100%; font-size: 28px; text-align: center; line-height: 35px; width: 100%; padding: 0 50px; }
 .img_alert .img { height: 80%; width: 80%; margin: 0 auto; margin-top: 20px; }
 .img_alert .img img { height: 100%; display: block; margin: 0 auto; }
