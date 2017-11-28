@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ss</title>
+	<style type="text/css">
+		
+		/*商城热点*/
+	.hot{ width:100%; height:30px; padding-top:5px; padding-bottom:5px; background:#FFF; border-top:1px solid #eeeeee;}
+	.hot h3{ float:left; border-right:1px solid #eeeeee;width:15%;height:30px; background:url(../images/Headlines.jpg) no-repeat center center;background-size: auto 20px; margin-right:2%}
+	.hot ul{ float:left; width:80%; height:30px; overflow:hidden}
+	.hot ul li{ width:100%; height:30px; float:left;transition: all 0.5s;}
+	.hot ul li span{ display:block; width:15%; float:left; font-size:12px; line-height:18px; color:#E71F19; border:1px solid #E71F19;border-radius:2px; margin-top:5px; text-align:center}
+	.hot ul li a{ display:block; width:80%; float:left; margin-left:2%; height:30px; overflow:hidden; font-size:14px; line-height:30px; color:#666;    -webkit-line-clamp: 1;-webkit-box-orient: vertical;display: -webkit-box;  }
+
+	</style>
+</head>
+<body>
+	<div class="hot" style="border-top: 1px;">
+<h3></h3>
+<ul id="mq" onmouseover="iScrollAmount=0" onmouseout="iScrollAmount=1">
+						<li class="first"><span>推荐</span><a href="article.php?id=143" title="汽车节油领导品牌——慧省油">汽车节油领导品牌——慧省油</a></li>
+						<li><span>推荐</span><a href="article.php?id=142" title="慧省油与节油市场的碰撞">慧省油与节油市场的碰撞</a></li>
+						<li><span>推荐</span><a href="article.php?id=141" title="慧省油，邀您共享碳资产">慧省油，邀您共享碳资产</a></li>
+			
+
+						<li class="first"><span>推荐</span><a href="article.php?id=143" title="汽车节油领导品牌——慧省油">汽车节油领导品牌——慧省油</a></li>
+						<li><span>推荐</span><a href="article.php?id=142" title="慧省油与节油市场的碰撞">慧省油与节油市场的碰撞</a></li>
+						<li><span>推荐</span><a href="article.php?id=141" title="慧省油，邀您共享碳资产">慧省油，邀您共享碳资产</a></li>
+			
+</ul>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		var bool = 1;
+		function runtop(){
+			Li = $('#mq>li');
+			lenL = $('#mq>li').length;
+			Lhei = $('#mq>li').height();
+		
+			for(var i=0;i<lenL;i++){
+				Li.eq(i).css('transform',"translateY(-"+bool*Lhei+"px)");
+			}
+			bool++;
+			console.log(bool)
+			if(bool == 6){
+				bool = 1;
+			}
+		}
+		setInterval(runtop,3000)
+	</script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>

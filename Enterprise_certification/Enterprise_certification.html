@@ -16,6 +16,9 @@
 		<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" ></script>
 		<script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" ></script>
 		<script type="text/javascript" src="js/Enterprise_certification.js" ></script>
+		<script src="js/distpicker.data.js"></script>
+		<script src="js/distpicker.js"></script>
+		<script src="js/main.js"></script>
 	</head>
 	<body>
 	
@@ -31,30 +34,23 @@
 						<h3>账号信息</h3>
 					</div>
 				   	<div class="form-group">
-				      	<label for="firstname" class="col-md-3  text-left"><span class="color_red">*</span>用户名：</label>
+				      	<label for="username" class="col-md-3  text-left"><span class="color_red">*</span>用户名：</label>
 				      	<div class="col-md-6">
-				         	<input type="text" class="form-control" id="firstname" >
+				         	<input type="text" class="form-control" id="username" >
 				            <span class="help-block">用户名一旦提交不可修改。</span>
-				            <p class="alert alert-danger hidden">错误提示</p>
+				            <p class="alert alert-danger hidden">请输入4到16位（字母，数字，下划线，减号）的用户名</p>
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>邮箱：</label>
+				      	<label for="E-mails" class="col-md-3  text-left"><span class="color_red">*</span>邮箱：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="E-mails" >
 				       		<span class="help-block">该邮箱可用于登录，接受平台审核、交易合同信息邮件。</span>
-				     		 <p class="alert alert-danger show">错误提示</p>
+				     		 <p class="alert alert-danger hidden">请输入合法的邮箱</p>
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>邮箱验证码：</label>
-				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
-				        	 <p class="alert alert-danger hidden">错误提示</p>
-				     	</div>
-				   	</div>
-				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>邮箱：</label>
 				      	<div class="col-md-6">
 				        	 <div class="input-group">
 					            <input type="text" class="form-control">
@@ -64,6 +60,14 @@
 				        	 <p class="alert alert-danger hidden">错误提示</p>
 				     	</div>
 				   	</div>
+				   	<div class="form-group">
+				      	<label for="Phone" class="col-md-3  text-left"><span class="color_red">*</span>手机：</label>
+				      	<div class="col-md-6">
+				        	<input type="text" class="form-control" id="Phone" >
+				        	 <p class="alert alert-danger hidden">请输入正确的手机号码</p>
+				     	</div>
+				   	</div>
+				   	
 				   	<div class="class_header">
 						<h3>企业类型</h3>
 					</div>
@@ -111,9 +115,9 @@
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>工商执照注册号：</label>
+				      	<label for="Organization_code" class="col-md-3  text-left"><span class="color_red">*</span>工商执照注册号：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Organization_code" >
 				        	<span class="help-block">请填写工商营业执照上的注册码。办理过三证合一的企业请填写统一信用代码。</span>
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
@@ -137,13 +141,20 @@
 				   	<div class="form-group">
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>公司地址：</label>
 				      	<div class="col-md-6">
-				      		<select class="form-control select_bottom">
-					        	<option>请选择公司所在地区</option>
-					         	<option>请选择公司所在地区</option>
-					         	<option>3</option>
-					        	<option>4</option>
-					        	<option>5</option>
-					      	</select>
+				      		 <div data-toggle="distpicker" >
+								<div class="form-group col-sm-4">
+								  <label class="sr-only" for="province2">Province</label>
+								  <select class="form-control" id="province2" data-province="---- 选择省 ----"></select>
+								</div>
+								<div class="form-group col-sm-4">
+								  <label class="sr-only" for="city2">City</label>
+								  <select class="form-control" id="city2" data-city="---- 选择市 ----"></select>
+								</div>
+								<div class="form-group col-sm-4">
+								  <label class="sr-only" for="district2">District</label>
+								  <select class="form-control" id="district2" data-district="---- 选择区 ----"></select>
+								</div>
+							  </div>
 				      		<textarea class="form-control" rows="5" placeholder="输入详细地址"></textarea>
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
@@ -159,10 +170,10 @@
 				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>注册资本：</label>
 				      	<div class="col-md-6">
 				        	 <div class="input-group">
-					            <input type="text" class="form-control">
+					            <input type="text" class="form-control" id="Of_money">
 					            <span class="input-group-addon">万元</span>
 				        	 </div>
-				        	  <p class="alert alert-danger hidden">错误提示</p>
+				        	  <p class="alert alert-danger hidden">请输入不为0的正数</p>
 				     	</div>
 				     	
 				   	</div>
@@ -193,9 +204,9 @@
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>企业银行账号：</label>
+				      	<label for="Bank_account" class="col-md-3  text-left"><span class="color_red">*</span>企业银行账号：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Bank_account" >
 				        	<span class="help-block">请填写对公账户的银行账号。</span>
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
@@ -233,38 +244,36 @@
 						<h3>联系信息</h3>
 					</div>
 					<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>联系人姓名：</label>
+				      	<label for="Contacts_name" class="col-md-3  text-left"><span class="color_red">*</span>联系人姓名：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Contacts_name" >
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>联系人电话：</label>
+				      	<label for="Contacts_Telephone" class="col-md-3  text-left"><span class="color_red">*</span>联系人电话：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Contacts_Telephone" >
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>联系人手机：</label>
+				      	<label for="Contacts_Phone" class="col-md-3  text-left"><span class="color_red">*</span>联系人手机：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Contacts_Phone" >
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
 				   	</div>
 				   	<div class="form-group">
-				      	<label for="lastname" class="col-md-3  text-left"><span class="color_red">*</span>联系人邮箱：</label>
+				      	<label for="Contacts_Email" class="col-md-3  text-left"><span class="color_red">*</span>联系人邮箱：</label>
 				      	<div class="col-md-6">
-				        	<input type="text" class="form-control" id="lastname" >
+				        	<input type="text" class="form-control" id="Contacts_Email" >
 				     		 <p class="alert alert-danger hidden">错误提示</p>
 				      	</div>
 				   	</div>
-				   		<button type="submit" class="btn btn-danger sub_info">确认提交</button>
+				   		<button type="button" class="btn btn-danger sub_info">确认提交</button>
 				   	
 				</form>
-				
-				
 				
 				
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
