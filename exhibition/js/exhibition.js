@@ -32,7 +32,7 @@ $(function(){
 		}else{
 			$('#agenda .my_nav ul').hide();
 		}
-		$('#guest a').click(function(){
+		$('#guest a.more').click(function(){
 			text = $(this).text(); 
 			if(text == "展开更多"){
 				$(this).html('<img src="images/up.png">收起')
