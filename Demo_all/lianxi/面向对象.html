@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function Cat(name,color){
+			this.name = name;
+			this.color = color;
+		}
+		Cat.prototype.type = '猫科动物';
+		Cat.prototype.eat = function(){
+			alert('吃老鼠')
+		};
+		var cat1 = new Cat('大毛','黑色');
+		var cat2 = new Cat('二毛','黄色');
+
+		//每个实例对象都有一个 constructor属性 指向它们的构造函数
+
+		console.log(cat1.constructor == Cat); //true
+		console.log(cat2.constructor == Cat); //true
+
+		// 运算符instanceof 验证实例化对象跟构造函数的关系
+		console.log(cat1 instanceof Cat); //true
+		console.log(cat2 instanceof Cat); //true
+
+		// Prototype模式
+		// Javascript规定，每一个构造函数都有一个prototype属性，指向另一个对象。这个对象的所有属性和方法，都会被构造函数的实例继承。
+		cat1.eat();
+		console.log(cat2.type);
+
+
+		// 每个实例对象都有一个hasOwnProperty()方法，用来判断某一个属性到底是本地属性，还是继承自prototype对象的属性。
+		alert(Cat.prototype.isPrototypeOf(cat1)); //true
+　　	alert(Cat.prototype.isPrototypeOf(cat2)			); //true
+
+
+		// 每个实例对象都有一个hasOwnProperty()方法，用来判断某一个属性到底是本地属性，还是继承自prototype对象的属性
+
+		alert(cat1.hasOwnProperty("name")); // true
+　　	alert(cat1.hasOwnProperty("type")); // 			false
+	</script>
+</body>
+</html>

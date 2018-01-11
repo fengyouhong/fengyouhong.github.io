@@ -1,0 +1,217 @@
+* {list-style: none;}
+button{outline: none;}
+a:link, a:visited {color: #333;text-decoration: none;outline: none;}
+p{color: #333;}
+.ov{ overflow:hidden; clear:both;}
+
+/**头部**/
+.header{position: fixed;width: 100%;background: #fff;z-index: 999;}
+.header .logo{float: left;padding: 17px 0;}
+.header .navbar{background: #fff;border:none;}
+.header .navbar-toggle{border:1px solid #ccc;}
+.header .navbar-collapse{border: none;}
+.header .navbar-default .navbar-toggle:focus, .header .navbar-default .navbar-toggle:hover{background: #fff;}
+.header .navbar-default .navbar-nav>.active>a, .header .navbar-default .navbar-nav>.active>a:focus, .header .navbar-default .navbar-nav>.active>a:hover{background: none;}
+.header .navbar-toggle{margin-top: 28px;margin-right: 0;}
+.header .navbar-nav>li>a{font-size: 18px;color: #333;}
+.navbar-default .navbar-nav>.active>a{color: #eaca69;border-bottom: 1px solid #eaca69;background: none;}
+.header .navbar{margin-bottom: 0;}
+
+/**banner**/
+#myCarousel{padding-top: 100px;}
+#myCarousel .carousel-indicators{bottom: -4px;}
+.content .title{background: url(../images/title.png) no-repeat center;}
+.content .title h3{margin: 118px 0 66px;color: #eaca69;}
+
+/**大会简介**/
+#introduction{padding-bottom: 30px;}
+#introduction .main_content .text p{text-indent: 2em;line-height: 30px;}
+#introduction .main_content ul{padding:0;}
+#introduction .main_content .pic li{position: relative;margin-bottom: 16px;}
+#introduction .main_content .pic li img{width: 100%;}
+#introduction .main_content .pic li .hover_text{position: absolute;bottom: 0;width: 100%;box-sizing:border-box; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin: 0 15px 0 -15px;padding: 0 15px;}
+#introduction .main_content .pic li .hover_text p{display: -webkit-box;overflow: hidden;text-overflow: clip;white-space: normal;-webkit-line-clamp: 1;-webkit-box-orient: vertical;margin: 0;height: 28px;line-height: 28px;background: rgba(0,0,0,.2);color: #fefefe;}
+#introduction .main_content .dynamic li{line-height: 32px;}
+#introduction .main_content .dynamic .dynamic_title h3{padding-left: 15px;margin-top: 0;position: relative;padding-bottom: 10px;}
+#introduction .main_content .dynamic .dynamic_title h3:before{content: "";width: 58px;height: 2px;background: #eaca69;position: absolute;bottom: 0px;left: 15px;}
+
+/**大会议程**/
+#agenda{padding-bottom: 30px;}
+#agenda .mooo { display: none; }
+#agenda .my_nav { margin: 0 auto; overflow: hidden; margin-bottom: 30px; }
+#agenda .my_nav ul { text-align: center; padding: 0; display: block; }
+#agenda .my_nav ul li { width: 100px; height: 70px; display: inline-block;cursor: pointer; }
+#agenda .my_nav ul li.active { background: url(../images/active_bg.png) no-repeat bottom; }
+#agenda .my_nav ul li.active p { color: #eaca69; }
+#agenda .time_title{padding-right: 0;}
+#agenda .agenda_details{display: none;}
+#agenda .agenda_details_active { display: block; }
+#agenda .time_tar{padding:0;}
+
+/**参展嘉宾**/
+#guest { background: #f1f5f8; overflow: hidden;padding-bottom: 30px; }
+#guest ul { padding: 0; }
+#guest ul li{margin-bottom: 26px;}
+#guest ul li img { margin: 0 auto; width: 100%; }
+#guest ul li p { text-align: center;margin-bottom: 0; }
+#guest ul li .ceo{font-size: 18px;line-height: 30px;}
+#guest a { display: block; text-align: center; color: #eaca69;margin: 20px 0; }
+#guest a.more img{margin-right: 5px;}
+
+/**展会报名**/
+#sign_up { background: #1e2232;}
+#sign_up .title h3 { color: #ffffff; }
+#sign_up .mooo { display: none; }
+#sign_up .my_nav { margin: 0 auto; overflow: hidden; margin-bottom: 30px; }
+#sign_up .my_nav ul { text-align: center; padding: 0; display: block; }
+#sign_up .my_nav ul li { width: 100px; height: 40px; display: inline-block;cursor: pointer; }
+#sign_up .my_nav ul li.active { background: url(../images/active_bg.png) no-repeat bottom; }
+#sign_up .my_nav ul li.active p { color: #eaca69; }
+#sign_up .my_nav ul li p { color: #ffffff; }
+#sign_up form{margin-bottom: 100px;}
+#sign_up form label{color: #ffffff;font-weight: normal;margin-bottom: 28px;line-height: 45px;}
+#sign_up form input[type=text]{background: #1e2232 !important;border-radius: 2px;height: 45px;}
+#sign_up form input[type=text]:focus{border:#eaca69 1px solid;}
+#sign_up form #submit{width: 100%;background: #eaca69;color: #ffffff;height: 45px;border: none;}
+
+/**往届回顾**/
+#previous{padding-bottom: 60px;}
+#previous{padding-bottom: 60px;}
+#previous .mooo { display: none; }
+#previous .my_nav { margin: 0 auto; overflow: hidden; margin-bottom: 30px; position: relative;}
+#previous .my_nav a{position: absolute;;width: 12px;height: 14px;display: block;top: 50%;margin-top: -7px;}
+#previous .my_nav .prev_li{left: 15%;}
+#previous .my_nav .next_li{right: 15%;}
+#previous .my_nav .list_length{overflow: hidden;height: 50px;margin: 0 auto;display: block;}
+#previous .my_nav ul { text-align: center; padding: 0; display: block;position: relative; }
+#previous .my_nav ul li { width: 100px; height: 50px; float: left;line-height: 50px;cursor: pointer;}
+#previous .my_nav ul li.active { background: url(../images/active_bg.png) no-repeat bottom; }
+#previous .my_nav ul li.active p { color: #eaca69; }
+#previous .my_nav ul li p { color: #333333; }
+#previous .tab_content{display: none;}
+#previous .tab_content_block{display: block;}
+#previous .tab_content ul{padding-left: 0;margin-bottom: 0;border-bottom: 1px solid #ccc;}
+#previous .tab_content li{margin-bottom: 20px;}
+#previous .tab_content li img{width: 100%;}
+#previous .tab_content .img_item p{margin-top: 10px;text-indent: 2em;line-height: 28px;}
+
+
+/**交通指南**/
+#traffic_guide{background: #f0f0f0;padding-bottom: 60px;}
+#traffic_guide .map{padding:0;}
+#traffic_guide .map img{width: 100%;}
+#traffic_guide .map h4{position: relative;padding: 15px 0;border-top: 1px solid #eaca69;margin: 20px 0;}
+#traffic_guide .map h4:before{content:"";width: 250px;height: 1px;background: #eaca69;bottom: 0;left: 50%;margin-left: -125px;display: block;position: absolute;}
+#traffic_guide .traffic .subway div,#traffic_guide .traffic .bus div,#traffic_guide .traffic .car div{padding: 0;line-height: 32px;}
+#traffic_guide .traffic img{margin-right: 5px;margin-left: 18px;}
+#traffic_guide .traffic ul{padding-left: 0;}
+
+/**会务信息**/
+#conference .undertake{border-bottom: 1px solid #ccc;}
+#conference .undertake .support_title{width: 100px;font-size: 18px;padding-bottom: 10px;border-bottom: 1px solid #eaca69;margin: 36px auto 16px;text-align: center;}
+#conference .undertake img{margin-bottom: 10px;}
+#conference .undertake ul{padding: 0;}
+#conference .contact .contact_title{margin-top: 34px;margin-left: 15px;font-size: 18px;}
+#conference .contact .contact_title p{width: 220px;padding-bottom: 12px;border-bottom: 1px solid #ccc;}
+#conference .contact .contact_list .top_list{border-bottom: 1px solid #ccc;}
+#conference .contact .contact_list .bottom_list dt{font-size: 18px;margin-top: 24px;}
+#conference .contact dl{margin-bottom: 20px;padding: 0 5px;}
+#conference .contact dt{font-weight: normal;line-height: 24px;}
+#conference .contact dd{line-height: 24px;}
+#conference .contact .advertisement img{width: 100%;}
+
+/**底部**/
+.footer{background: #f0f0f0;}
+.footer ul{width: 600px;margin: 60px auto 0;padding-left: 0;}
+.footer li{float: left;padding: 0 5px;}
+.footer p{margin-bottom: 0;line-height: 28px;}
+.footer p.police{margin-bottom: 54px;}
+
+@media (max-width:1200px){
+	.header .navbar-nav>li>a{padding: 15px;}
+	.header .navbar-default .navbar-nav>.active>a{background: #eaca69;border: none;color: #fff;}
+	.header .navbar-default .navbar-nav>.active>a, .header .navbar-default .navbar-nav>.active>a:focus, .header .navbar-default .navbar-nav>.active>a:hover{background: #eaca69;}
+	.content .title h3{margin: 50px 0 40px;}
+}
+@media (min-width: 1200px){
+	.content .container{width: 1000px;}
+	#previous .tab_content.container{width: 800px;}
+}
+@media (max-width: 991px){
+	#introduction .main_content .text p{font-size: 18px;line-height: 32px;}
+	#introduction .main_content .pic li{padding: 0 10px;}
+	#introduction .main_content .dynamic li{border-bottom: 1px solid #ccc;padding: 5px 0px;margin: 0 15px;}
+	#introduction .main_content .dynamic li a{font-size: 18px;}
+	#guest li p{font-size: 18px;}
+	#guest a{font-size: 18px;}
+	#agenda{font-size: 18px;}
+	#sign_up{font-size: 18px;}
+	#sign_up .btn{font-size: 18px;}
+	#sign_up form label{margin-bottom: 0;}
+	#previous{font-size: 18px;}
+	#previous .tab_content li{padding: 0 10px;}
+	#previous .tab_content .img_item p{font-size: 18px;line-height: 32px;}
+	#traffic_guide .traffic img{margin-left: 50px;}
+	#traffic_guide .traffic{font-size: 18px;padding:0;}
+	#conference .contact h4{font-size: 20px;}
+	#conference .contact dl{font-size: 18px;}
+	#conference .contact dd{font-size: 18px;line-height: 32px;}
+	#conference .contact .contact_list .bottom_list dt{font-size: 20px;line-height: 36px;}
+	#conference .contact .advertisement{margin-bottom: 30px;}
+	.footer p{margin: 30px 0;font-size: 18px;}
+}
+@media (max-width:767px){
+	#previous{padding-bottom: 30px;}
+	#traffic_guide .traffic>div{margin-bottom: 20px;}
+	#traffic_guide .traffic .traffic_car img{margin-left: 0;}
+	#traffic_guide .traffic li{line-height: 36px;}
+	#agenda ul{padding-left:0;}
+	#agenda .my_nav { margin: 0 auto; overflow: hidden; margin-bottom: 20px; }
+	#agenda .my_nav .mooo { width: 100%; margin: 0 auto; height: 60px; text-align: center;line-height: 60px; color: #fff;display: block; }
+	#agenda .my_nav .mooo p { display: inline-block; color: #ffffff;margin-bottom: 0; }
+	#agenda .my_nav .mobile_active { background: #eaca69 url(../images/moblie_active_bg.png) no-repeat 97% 18px; }
+	#agenda .my_nav .mobile_active1 { background: #eaca69 url(../images/moblie_active_bg1.png) no-repeat 97% 18px; }
+	#agenda .my_nav ul { text-align: center; padding: 0; display: none; }
+	#agenda .my_nav ul li { width: 100%; background: #f0f0f0; height: 60px; line-height: 60px; color: #333333;}
+	#agenda .my_nav ul li.active{background: #f0f0f0;}
+	#agenda .my_nav ul li p { display: inline-block; }
+	#sign_up ul{padding-left:0;}
+	#sign_up .my_nav { margin: 0 auto; overflow: hidden; margin-bottom: 20px; }
+	#sign_up .my_nav .mooo { width: 100%; margin: 0 auto; height: 60px; text-align: center;line-height: 60px; color: #fff;display: block; }
+	#sign_up .my_nav .mooo p { display: inline-block; color: #ffffff; }
+	#sign_up .my_nav .mobile_active { background: #eaca69 url(../images/moblie_active_bg.png) no-repeat 97% 18px; }
+	#sign_up .my_nav .mobile_active1 { background: #eaca69 url(../images/moblie_active_bg1.png) no-repeat 97% 18px; }
+	#sign_up .my_nav ul { text-align: center; padding: 0; display: none; }
+	#sign_up .my_nav ul li { width: 100%; background: #f0f0f0; height: 60px; line-height: 60px; color: #333333;}
+	#sign_up .my_nav ul li.active{background: #f0f0f0;}
+	#sign_up .my_nav ul li p { display: inline-block;color: #333333; }
+	#previous .my_nav .list_length{height: auto;display: none;width: 100%;margin: 0;}
+	#previous .my_nav .mooo { width: 100%; margin: 0 auto; height: 60px; text-align: center;line-height: 60px; color: #fff;display: block; }
+	#previous .my_nav .mooo p { display: inline-block; color: #ffffff; }
+	#previous .my_nav ul{display: block;}
+	#previous .my_nav a{display: none;}
+	#previous .my_nav .mobile_active { background: #eaca69 url(../images/moblie_active_bg.png) no-repeat 97% 18px; }
+	#previous .my_nav .mobile_active1 { background: #eaca69 url(../images/moblie_active_bg1.png) no-repeat 97% 18px; }
+	#previous .my_nav ul { text-align: center; padding: 0; width: 100%;margin-left:0 !important; }
+	#previous .my_nav ul li { width: 100%; background: #f0f0f0; height: 60px; line-height: 60px; color: #333333;position: relative;}
+	#previous .my_nav ul li.active{background: #f0f0f0;}
+	#previous .my_nav ul li p { display: inline-block;color: #333333; }
+}
+
+@media (max-width: 500px){
+	.logo img{width: 200px;}
+	.header .navbar-toggle{margin-top: 22px;}
+	#myCarousel{padding-top: 80px;}
+}
+
+@media (min-width:768px) and (max-width:1200px){
+	#previous .my_nav .list_length{width: 400px;}
+	#previous .my_nav ul li{font-size: 18px;}
+	#previous .my_nav .prev_li{left: 20%;}
+	#previous .my_nav .next_li{right: 20%;}
+}
+
+@media (min-width:1200px){
+	#previous .my_nav .list_length{width: 500px;}
+	#previous .my_nav ul li{font-size: 18px;}
+}
