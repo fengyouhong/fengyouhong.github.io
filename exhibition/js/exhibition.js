@@ -1,8 +1,12 @@
 $(function(){	
 	//导航条
 	$('.nav li').click(function() {
-		var index = $(this).index()
-		$(this).addClass('active').siblings().removeClass('active')
+		var index = $(this).index();
+		var width = $(window).width();  
+		if(width<768){
+			$('.navbar-toggle').click();
+		}
+		$(this).addClass('active').siblings().removeClass('active');
 	});
 	//banner轮播
 	$('.carousel').carousel({
