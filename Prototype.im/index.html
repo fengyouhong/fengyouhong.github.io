@@ -27,7 +27,7 @@
 		<h2>Prototype.im</h2>
 		<h1>我们将想法变成产品</h1>
 		<h5>从领到一的快速软件产品开发服务</h5>
-		<button>联系合作</button>
+		<button class="contact_me">联系合作</button>
 		<a href="#Recent">查看近期项目→</a>
 		<span class="separate"></span>
 	</header>
@@ -96,5 +96,38 @@
 		<p>Say<img src="img/goods_head.png" alt="">at hello@prototype.im</p>
 		<span>Made w/<b>Prototype.im</b></span>
 	</footer>
+
+	<div class="shadow_view">
+		<div class="contant_form">
+			
+			<h1>联系合作<a href="javascript:void(0)" class="hide_view">X</a></h1>
+			<p>很高兴您有兴趣与我们合作。请填写下面的表单，我们将很快联系您。</p>
+			<form action="">
+				<div>
+					<label foruser_name class="name">姓名</label>
+					<input type="text" class="user_name" value="" placeholder="我们该怎么称呼您" />
+				</div>
+				<div>
+					<label for="" class="phone">电话</label>
+					<input type="text" class="user_phone" value="" placeholder="请填写您的联系电话" />
+				</div>
+				<div>
+					<label for="">项目简介</label>
+					<textarea name="" id="" cols="30" rows="10" class="user_text" placeholder="请简单介绍下您的项目想法"></textarea>
+				</div>
+				<input type="submit" value="发送" />
+			</form>
+		</div>
+	</div>
 </body>
+<script type="text/javascript">
+		$(".contact_me").click(function(){
+			console.log(123)
+			$(".shadow_view").show();
+		});
+		$(".hide_view").click(function(){
+			$(".shadow_view").hide();
+		})
+	
+</script>
 </html>
