@@ -1,0 +1,143 @@
+body{
+	background: #fff6e9;
+	padding: 0 0.3rem;
+}
+.Pro_header{
+	width: 100%;
+	overflow: hidden;
+}
+.Pro_header h2{
+	margin:1rem 0 1rem 0;
+	font-size: 0.45rem;
+}
+.Pro_header h1{
+	margin-bottom: 0.7rem;
+	font-size: 0.5rem;
+}
+.Pro_header h5{
+	font-size: 0.4rem;
+	margin-bottom: 0.6rem	
+}
+.Pro_header button{
+	width: 2.75rem;
+	height: 1rem;
+	color: #fff;
+	font-size: 0.38rem;
+	border: none;
+	border-radius: 5px;
+	background: #496ffb;
+}
+.Pro_header a{
+	font-size: 0.3rem;
+	color: #495ff6 !important;
+}
+ span.separate{
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: #f3eade;
+	border-radius: 5px;
+	margin-top: 0.8rem; 
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.content h5{
+	text-align: left;
+	font-size: 0.4rem;
+	margin-bottom: 0.6rem;
+	margin:0.7rem 0 0.7rem 0;
+}
+.content .server_feature h5{
+	margin-bottom: 0.4rem;
+}
+.content .server_feature ul{
+	overflow: hidden;
+	display: inline-block;
+	margin-right: -10%;
+}
+.content .server_feature ul li{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+	min-height: 4rem;
+	display: inline;
+	text-align: left;
+	margin-right: 5%;
+}
+.content .server_feature ul li span{
+	border: 2px #1d1c1b solid;
+	border-radius:20px;
+	font-size: 0.4rem;
+	padding: 0 0.2rem;
+	font-weight: bold;
+}
+.content .server_feature ul li img{
+	width: 0.5rem ;
+	height: 0.5rem;
+	margin-bottom: -0.05rem;
+	margin-left: 0.3rem;
+}
+.content .server_feature ul li b{
+	font-size: 0.35rem;
+	display: block;
+	margin:0.2rem 0;
+}
+.content .server_feature ul li p{
+	font-size: 0.3rem;
+	width: 90%;
+}
+.content .Recent_project h5{
+	margin-top: 0;
+}
+.content .Recent_project ul{
+	overflow: hidden;
+	display: inline-block;
+	margin-right: -10%;
+}
+.content .Recent_project span.separate{
+	margin-top: 0;
+}
+.content .Recent_project ul li{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+	min-height: 7rem;
+	display: inline;
+	text-align: left;
+	margin-right: 5%;
+}
+.content .Recent_project ul li img{
+	width: 90%;
+}
+.content .Recent_project ul li b{
+	font-size: 0.35rem;
+	display: block;
+	margin:0.2rem 0;
+}
+.content .Recent_project ul li p{
+	font-size: 0.3rem;
+	overflow: hidden;
+	width: 90%;
+}
+.footer{
+	padding-bottom: 0.2rem;
+}
+.footer p{
+	margin-top: 0.6rem;
+	font-size: 0.28rem
+}
+.footer p img{
+	width: 0.3rem;
+	margin:0 5px;
+}
+.footer span{
+	font-size: 0.28rem;
+	padding: 0.18rem;
+	border:1px #496ffb solid;
+	border-radius: 7px;
+	color: #496ffb;
+
+}

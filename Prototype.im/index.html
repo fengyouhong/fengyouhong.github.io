@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Prototype.im</title>
+	<link rel="stylesheet" href="css/Pro_index.css">
+	<link rel="stylesheet" href="css/base.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+	<script>
+		$(function(){
+			//	定义rem
+			var winW = $(window).width();
+			var constant = winW/7.5;
+			$('body,html').css({"font-size":constant});
+			$(window).resize(function(){
+				var winW = $(window).width();
+				var constant = winW/7.5;
+				$('body,html').css({"font-size":constant});
+			});
+			
+		})
+	</script>
+<body>
+	<header class="Pro_header">
+		<h2>Prototype.im</h2>
+		<h1>我们将想法变成产品</h1>
+		<h5>从领到一的快速软件产品开发服务</h5>
+		<button>联系合作</button>
+		<a href="#Recent">查看近期项目→</a>
+		<span class="separate"></span>
+	</header>
+	<main class="content">
+		<div class="server_feature">
+			<h5>服务特色</h5>
+			<ul>
+				<li>
+					<span>www</span><img src="img/cit.png">
+					<b>基于网站或小程序</b>
+					<p>我们的快速原型开发服务专注于web和小程序领域。</p>
+				</li>
+				<li>
+					<span>7~14天</span>
+					<b>一到两周上线</b>
+					<p>你问的快速有多快？嗯，具体来说就是7~14天</p>
+				</li>
+				<li>
+					<span>￥1000/小时</span>
+					<b>公平透明的价格</b>
+					<p>以实际开发时间计费，项目总价一般低于十万元。</p>
+				</li>
+				<li>
+					<span>-50%</span>
+					<b>创业特别优惠</b>
+					<p>对于创业公司，可以以1%的股权置换50%的折扣。</p>
+				</li>
+			</ul>
+		</div>
+		<div class="Recent_project" id="Recent">
+			<h5>近期项目</h5>
+			<ul>
+				<li>
+					<a href="###">
+						<img src="img/list1.png" >
+						<b>小小行情</b>
+						<p>加密货币行情信息小程序</p>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="img/list2.png" >
+						<b>FigRes</b>
+						<p>Figma Resources</p>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="img/list3.png" >
+						<b>荔枝账单</b>
+						<p>简单优雅的账单管理软件</p>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="img/list4.png" >
+						<b>套餐助手</b>
+						<p>帮你选择最合适的手机套餐</p>
+					</a>
+				</li>
+			</ul>
+			<span class="separate"></span>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>Say<img src="img/goods_head.png" alt="">at hello@prototype.im</p>
+		<span>Made w/<b>Prototype.im</b></span>
+	</footer>
+</body>
+</html>

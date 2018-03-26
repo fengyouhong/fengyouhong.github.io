@@ -1,0 +1,12 @@
+﻿@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(../fonts/toadocfmlt9b38dhjxobgmw1o1efrj7wyc6jbisqojy.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url(../fonts/toadocfmlt9b38dhjxobgbppoa1q11iommm9mdhhhx4.ttf) format('truetype');
+}
