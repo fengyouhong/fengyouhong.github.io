@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="top-bar-guidance">
+    <p>点击右上角<img src="//gw.alicdn.com/tfs/TB1xwiUNpXXXXaIXXXXXXXXXXXX-55-55.png" class="icon-safari" /> Safari 打开</p>
+    <p>可以继续访问本站哦~</p>
+</div>
+<a class="app-download-btn" id="BtnClick" href="javascript:;">
+    点此继续访问
+</a>
+</body>
+<script type="text/javascript">
+	window.mobileUtil = (function(win, doc) {
+    var UA = navigator.userAgent,
+        isAndroid = /android|adr/gi.test(UA),
+        isIOS = /iphone|ipod|ipad/gi.test(UA) && !isAndroid,
+        isBlackBerry = /BlackBerry/i.test(UA),
+        isWindowPhone = /IEMobile/i.test(UA),
+        isMobile = isAndroid || isIOS || isBlackBerry || isWindowPhone;
+    return {
+        isAndroid: isAndroid,
+        isIOS: isIOS,
+        isMobile: isMobile,
+        isWeixin: /MicroMessenger/gi.test(UA),
+        isQQ: /QQ/gi.test(UA)
+    };
+})(window, document);
+var url = 'https://baidu.com/'; 
+if(mobileUtil.isWeixin){
+    if(mobileUtil.isIOS){
+    	console.log('ios')
+        url = "https://t.asczwa.com/taobao?backurl=" + encodeURIComponent(url);
+        document.getElementById('BtnClick').href=url;
+    }else if(mobileUtil.isAndroid){
+    	console.log('android')
+        url = '?open=1';
+        document.getElementById('BtnClick').href=url;
+        var iframe = document.createElement("iframe");
+        iframe.style.display = "none";
+        iframe.src = url;
+        document.body.appendChild(iframe);
+    }
+}else{
+	console.log('qita')
+    document.getElementById('BtnClick').href=url;
+    window.location.replace(url);
+}
+</script>
+</html>
